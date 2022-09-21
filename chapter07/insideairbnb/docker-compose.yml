@@ -13,7 +13,8 @@ x-environment: &airflow_environment
   - AIRFLOW_CONN_INSIDE_AIRBNB=postgres://insideairbnb:insideairbnb@insideairbnb:5432/insideairbnb
   - AIRFLOW_CONN_LOCALS3=s3://secretaccess:secretkey@?host=locals3:9000
 
-x-airflow-image: &airflow_image apache/airflow:2.0.0-python3.8
+    # x-airflow-image: &airflow_image apache/airflow:2.0.0-python3.8
+x-airflow-image: &airflow_image apache/airflow:2.3.3-python3.10
 # ====================================== /AIRFLOW ENVIRONMENT VARIABLES ======================================
 
 services:
