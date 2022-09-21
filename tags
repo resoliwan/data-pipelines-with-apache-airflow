@@ -1,0 +1,1580 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/younlee/temp_workspace/data-pipelines-with-apache-airflow/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220515.0/
+.DEFAULT_GOAL	chapter14/Makefile	/^.DEFAULT_GOAL := help$/;"	m
+.DEFAULT_GOAL	chapter18/Makefile	/^.DEFAULT_GOAL := help$/;"	m
+0	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+1	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+2	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+3	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+4	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+5	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+6	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+7	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+8	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+9	chapter02/example/launchlibrary2_snippet.json	/^        {$/;"	o	array:results
+APP_THEME	chapter13/webserver_theme/webserver_config.py	/^APP_THEME = "sandstone.css"$/;"	v
+AUTH_LDAP_BIND_PASSWORD	chapter13/ldap/webserver_config.py	/^AUTH_LDAP_BIND_PASSWORD = "admin"$/;"	v
+AUTH_LDAP_BIND_USER	chapter13/ldap/webserver_config.py	/^AUTH_LDAP_BIND_USER = "cn=admin,dc=apacheairflow,dc=com"$/;"	v
+AUTH_LDAP_SEARCH	chapter13/ldap/webserver_config.py	/^AUTH_LDAP_SEARCH = "dc=apacheairflow,dc=com"$/;"	v
+AUTH_LDAP_SERVER	chapter13/ldap/webserver_config.py	/^AUTH_LDAP_SERVER = "ldap:\/\/openldap:389"$/;"	v
+AUTH_LDAP_UID_FIELD	chapter13/ldap/webserver_config.py	/^AUTH_LDAP_UID_FIELD = "uid"$/;"	v
+AUTH_LDAP_USE_TLS	chapter13/ldap/webserver_config.py	/^AUTH_LDAP_USE_TLS = False$/;"	v
+AUTH_TYPE	chapter13/ldap/webserver_config.py	/^AUTH_TYPE = AUTH_LDAP$/;"	v
+AUTH_TYPE	chapter13/webserver_theme/webserver_config.py	/^AUTH_TYPE = AUTH_DB$/;"	v
+AUTH_USER_REGISTRATION	chapter13/ldap/webserver_config.py	/^AUTH_USER_REGISTRATION = True$/;"	v
+AUTH_USER_REGISTRATION_ROLE	chapter13/ldap/webserver_config.py	/^AUTH_USER_REGISTRATION_ROLE = "User"$/;"	v
+CSRF_ENABLED	chapter13/ldap/webserver_config.py	/^CSRF_ENABLED = True$/;"	v
+Changelog	CHANGELOG.md	/^# Changelog$/;"	c
+Chapter 1	chapter01/README.md	/^# Chapter 1$/;"	c
+Chapter 10 - Docker	chapter10/docker/README.md	/^# Chapter 10 - Docker$/;"	c
+Chapter 10 - Kubernetes	chapter10/kubernetes/README.md	/^# Chapter 10 - Kubernetes$/;"	c
+Chapter 11	chapter11/README.md	/^# Chapter 11$/;"	c
+Chapter 12	chapter12/README.md	/^# Chapter 12$/;"	c
+Chapter 13	chapter13/README.md	/^# Chapter 13$/;"	c
+Chapter 13 - GCP	chapter18/README.md	/^# Chapter 13 - GCP$/;"	c
+Chapter 14	chapter14/README.md	/^# Chapter 14$/;"	c
+Chapter 16 - Airflow on AWS	chapter16/README.md	/^# Chapter 16 - Airflow on AWS$/;"	c
+Chapter 17 - Airflow on Azure	chapter17/README.md	/^# Chapter 17 - Airflow on Azure$/;"	c
+Chapter 2	chapter02/README.md	/^# Chapter 2$/;"	c
+Chapter 3	chapter03/README.md	/^# Chapter 3$/;"	c
+Chapter 4	chapter04/README.md	/^# Chapter 4$/;"	c
+Chapter 5	chapter05/README.md	/^# Chapter 5$/;"	c
+Chapter 6	chapter06/README.md	/^# Chapter 6$/;"	c
+Chapter 8	chapter08/README.md	/^# Chapter 8$/;"	c
+Chapter 9	chapter07/readme.md	/^# Chapter 9$/;"	c
+Citi Bike dataset	chapter14/README.md	/^### Citi Bike dataset$/;"	S	section:Chapter 14""More information
+Contents	chapter01/README.md	/^## Contents$/;"	s	chapter:Chapter 1
+Contents	chapter02/README.md	/^## Contents$/;"	s	chapter:Chapter 2
+Contents	chapter03/README.md	/^## Contents$/;"	s	chapter:Chapter 3
+Contents	chapter04/README.md	/^## Contents$/;"	s	chapter:Chapter 4
+Contents	chapter05/README.md	/^## Contents$/;"	s	chapter:Chapter 5
+Contents	chapter06/README.md	/^## Contents$/;"	s	chapter:Chapter 6
+Contents	chapter07/readme.md	/^## Contents$/;"	s	chapter:Chapter 9
+Contents	chapter08/README.md	/^## Contents$/;"	s	chapter:Chapter 8
+Contents	chapter10/docker/README.md	/^## Contents$/;"	s	chapter:Chapter 10 - Docker
+Contents	chapter10/kubernetes/README.md	/^## Contents$/;"	s	chapter:Chapter 10 - Kubernetes
+Contents	chapter11/README.md	/^## Contents$/;"	s	chapter:Chapter 11
+Contents	chapter12/README.md	/^## Contents$/;"	s	chapter:Chapter 12
+Contents	chapter13/README.md	/^## Contents$/;"	s	chapter:Chapter 13
+Contents	chapter16/README.md	/^## Contents$/;"	s	chapter:Chapter 16 - Airflow on AWS
+Contents	chapter17/README.md	/^## Contents$/;"	s	chapter:Chapter 17 - Airflow on Azure
+Contents	chapter18/README.md	/^## Contents$/;"	s	chapter:Chapter 13 - GCP
+DAG_FILES	chapter09/tests/dags/test_dag_integrity.py	/^DAG_FILES = glob.glob(DAG_PATH)$/;"	v
+DAG_PATH	chapter09/tests/dags/test_dag_integrity.py	/^DAG_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "dags\/**.py")$/;"	v
+DEFAULT_ITEMS_PER_PAGE	chapter08/docker/movielens-api/app.py	/^DEFAULT_ITEMS_PER_PAGE = 100$/;"	v
+DEFAULT_PORT	chapter08/dags/custom/hooks.py	/^    DEFAULT_PORT = 5000$/;"	v	class:MovielensHook
+DEFAULT_PORT	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    DEFAULT_PORT = 5000$/;"	v	class:MovielensHook
+DEFAULT_PORT	chapter16/dags/custom/hooks.py	/^    DEFAULT_PORT = 5000$/;"	v	class:MovielensHook
+DEFAULT_PORT	chapter17/dags/custom/hooks.py	/^    DEFAULT_PORT = 5000$/;"	v	class:MovielensHook
+DEFAULT_PORT	chapter18/dags/custom/hooks.py	/^    DEFAULT_PORT = 5000$/;"	v	class:MovielensHook
+DEFAULT_SCHEMA	chapter08/dags/custom/hooks.py	/^    DEFAULT_SCHEMA = "http"$/;"	v	class:MovielensHook
+DEFAULT_SCHEMA	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    DEFAULT_SCHEMA = "http"$/;"	v	class:MovielensHook
+DEFAULT_SCHEMA	chapter16/dags/custom/hooks.py	/^    DEFAULT_SCHEMA = "http"$/;"	v	class:MovielensHook
+DEFAULT_SCHEMA	chapter17/dags/custom/hooks.py	/^    DEFAULT_SCHEMA = "http"$/;"	v	class:MovielensHook
+DEFAULT_SCHEMA	chapter18/dags/custom/hooks.py	/^    DEFAULT_SCHEMA = "http"$/;"	v	class:MovielensHook
+Data Pipelines with Apache Airflow	README.md	/^# Data Pipelines with Apache Airflow$/;"	c
+Details	chapter13/ldap/README.md	/^## Details$/;"	s	chapter:LDAP
+Details	chapter13/rbac/README.md	/^## Details$/;"	s	chapter:RBAC demo
+Details	chapter13/secretsbackend/README.md	/^## Details$/;"	s	chapter:Secrets backend
+Details	chapter13/webserver_theme/README.md	/^## Details$/;"	s	chapter:Webserver theme demo
+Docker DAG	chapter10/docker/README.md	/^### Docker DAG$/;"	S	section:Chapter 10 - Docker""Usage
+EOSQL	chapter07/insideairbnb/insideairbnb/postgres-init.sh	/^	psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" $database <<-EOSQL$/;"	h
+EOSQL	chapter07/insideairbnb/insideairbnb/postgres-init.sh	/^	psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" <<-EOSQL$/;"	h
+EOSQL	chapter07/insideairbnb/insideairbnb/postgres-init.sh	/^  psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" insideairbnb <<-EOSQL$/;"	h
+EOSQL	chapter07/insideairbnb/insideairbnb/postgres-init.sh	/^psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" insideairbnb <<-EOSQL$/;"	h
+EOSQL	chapter14/services/citibike_db/postgres-init.sh	/^  time psql -v ON_ERROR_STOP=1 citibike <<-EOSQL$/;"	h
+EOSQL	chapter14/services/citibike_db/postgres-init.sh	/^psql -v ON_ERROR_STOP=1 <<-EOSQL$/;"	h
+EOSQL	chapter14/services/citibike_db/postgres-init.sh	/^psql -v ON_ERROR_STOP=1 citibike <<-EOSQL$/;"	h
+EOSQL	chapter14/services/taxi_db/postgres-init.sh	/^  time psql -v ON_ERROR_STOP=1 tlctriprecords <<-EOSQL$/;"	h
+EOSQL	chapter14/services/taxi_db/postgres-init.sh	/^psql -v ON_ERROR_STOP=1 <<-EOSQL$/;"	h
+EOSQL	chapter14/services/taxi_db/postgres-init.sh	/^psql -v ON_ERROR_STOP=1 tlctriprecords <<-EOSQL$/;"	h
+EOSQL	chapter14/services/taxi_fileserver/get_last_hour.sh	/^<<-EOSQL$/;"	h
+EOSQL	chapter14/services/taxi_fileserver/get_last_hour_reboot.sh	/^  <<-EOSQL$/;"	h
+ERP_CHANGE_DATE	chapter05/dags/02_branch_function.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+ERP_CHANGE_DATE	chapter05/dags/02_branch_task.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+ERP_CHANGE_DATE	chapter05/dags/03_branch_dag.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+ERP_CHANGE_DATE	chapter05/dags/04_branch_dag_join.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+ERP_CHANGE_DATE	chapter05/dags/05_condition_task.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+ERP_CHANGE_DATE	chapter05/dags/06_condition_dag.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+ERP_CHANGE_DATE	chapter05/dags/07_condition_dag_op.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+ERP_CHANGE_DATE	chapter11/dags/04_task_groups_umbrella.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
+GlueTriggerCrawlerOperator	chapter16/dags/custom/operators.py	/^class GlueTriggerCrawlerOperator(BaseOperator):$/;"	c
+LDAP	chapter13/ldap/README.md	/^# LDAP$/;"	c
+MOVIELENS_HOST	chapter08/dags/01_python.py	/^MOVIELENS_HOST = os.environ.get("MOVIELENS_HOST", "movielens")$/;"	v
+MOVIELENS_PASSWORD	chapter08/dags/01_python.py	/^MOVIELENS_PASSWORD = os.environ["MOVIELENS_PASSWORD"]$/;"	v
+MOVIELENS_PORT	chapter08/dags/01_python.py	/^MOVIELENS_PORT = os.environ.get("MOVIELENS_PORT", "5000")$/;"	v
+MOVIELENS_SCHEMA	chapter08/dags/01_python.py	/^MOVIELENS_SCHEMA = os.environ.get("MOVIELENS_SCHEMA", "http")$/;"	v
+MOVIELENS_USER	chapter08/dags/01_python.py	/^MOVIELENS_USER = os.environ["MOVIELENS_USER"]$/;"	v
+MinioPandasToPostgres	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^class MinioPandasToPostgres(BaseOperator):$/;"	c
+More information	chapter14/README.md	/^## More information$/;"	s	chapter:Chapter 14
+MovielensFetchRatingsOperator	chapter08/dags/custom/operators.py	/^class MovielensFetchRatingsOperator(BaseOperator):$/;"	c
+MovielensFetchRatingsOperator	chapter08/package/airflow-movielens/src/airflow_movielens/operators.py	/^class MovielensFetchRatingsOperator(BaseOperator):$/;"	c
+MovielensHook	chapter08/dags/custom/hooks.py	/^class MovielensHook(BaseHook):$/;"	c
+MovielensHook	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^class MovielensHook(BaseHook):$/;"	c
+MovielensHook	chapter16/dags/custom/hooks.py	/^class MovielensHook(BaseHook):$/;"	c
+MovielensHook	chapter17/dags/custom/hooks.py	/^class MovielensHook(BaseHook):$/;"	c
+MovielensHook	chapter18/dags/custom/hooks.py	/^class MovielensHook(BaseHook):$/;"	c
+MovielensRatingsSensor	chapter08/dags/custom/sensors.py	/^class MovielensRatingsSensor(BaseSensorOperator):$/;"	c
+MovielensRatingsSensor	chapter08/package/airflow-movielens/src/airflow_movielens/sensors.py	/^class MovielensRatingsSensor(BaseSensorOperator):$/;"	c
+NYC Transportation	chapter14/services/nyc_transportation_api/templates/index.html	/^    <title>NYC Transportation<\/title>$/;"	j
+PandasOperator	chapter14/src/nyctransport/operators/pandas_operator.py	/^class PandasOperator(BaseOperator):$/;"	c
+PostgresToS3Operator	chapter07/insideairbnb/dags/custom/postgres_to_s3_operator.py	/^class PostgresToS3Operator(BaseOperator):$/;"	c
+RANK_QUERY	chapter17/dags/01_azure_usecase.py	/^RANK_QUERY = """$/;"	v
+RBAC demo	chapter13/rbac/README.md	/^# RBAC demo$/;"	c
+S3_ACCESS_KEY	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^S3_ACCESS_KEY = os.environ["S3_ACCESS_KEY"]$/;"	v
+S3_ENDPOINT	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^S3_ENDPOINT = os.environ["S3_ENDPOINT"]$/;"	v
+S3_SECRET_KEY	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^S3_SECRET_KEY = os.environ["S3_SECRET_KEY"]$/;"	v
+SQLALCHEMY_DATABASE_URI	chapter13/ldap/webserver_config.py	/^SQLALCHEMY_DATABASE_URI = conf.get("core", "SQL_ALCHEMY_CONN")$/;"	v
+Secrets backend	chapter13/secretsbackend/README.md	/^# Secrets backend$/;"	c
+Structure	README.md	/^### Structure$/;"	S	chapter:Data Pipelines with Apache Airflow
+Taxi DB	chapter14/services/taxi_db/README.md	/^# Taxi DB$/;"	c
+Taxi dataset	chapter14/README.md	/^### Taxi dataset$/;"	S	section:Chapter 14""More information
+Usage	README.md	/^### Usage$/;"	S	chapter:Data Pipelines with Apache Airflow
+Usage	chapter01/README.md	/^## Usage$/;"	s	chapter:Chapter 1
+Usage	chapter02/README.md	/^## Usage$/;"	s	chapter:Chapter 2
+Usage	chapter03/README.md	/^## Usage$/;"	s	chapter:Chapter 3
+Usage	chapter04/README.md	/^## Usage$/;"	s	chapter:Chapter 4
+Usage	chapter05/README.md	/^## Usage$/;"	s	chapter:Chapter 5
+Usage	chapter06/README.md	/^## Usage$/;"	s	chapter:Chapter 6
+Usage	chapter07/readme.md	/^## Usage$/;"	s	chapter:Chapter 9
+Usage	chapter08/README.md	/^## Usage$/;"	s	chapter:Chapter 8
+Usage	chapter10/docker/README.md	/^## Usage$/;"	s	chapter:Chapter 10 - Docker
+Usage	chapter10/kubernetes/README.md	/^### Usage$/;"	S	section:Chapter 10 - Kubernetes""Contents
+Usage	chapter11/README.md	/^## Usage$/;"	s	chapter:Chapter 11
+Usage	chapter12/README.md	/^## Usage$/;"	s	chapter:Chapter 12
+Usage	chapter13/README.md	/^## Usage$/;"	s	chapter:Chapter 13
+Usage	chapter13/ldap/README.md	/^## Usage$/;"	s	chapter:LDAP
+Usage	chapter13/rbac/README.md	/^## Usage$/;"	s	chapter:RBAC demo
+Usage	chapter13/secretsbackend/README.md	/^## Usage$/;"	s	chapter:Secrets backend
+Usage	chapter13/webserver_theme/README.md	/^## Usage$/;"	s	chapter:Webserver theme demo
+Usage	chapter16/README.md	/^## Usage$/;"	s	chapter:Chapter 16 - Airflow on AWS
+Usage	chapter17/README.md	/^## Usage$/;"	s	chapter:Chapter 17 - Airflow on Azure
+Usage	chapter18/README.md	/^## Usage$/;"	s	chapter:Chapter 13 - GCP
+WTF_CSRF_ENABLED	chapter13/webserver_theme/webserver_config.py	/^WTF_CSRF_ENABLED = True$/;"	v
+Webserver theme demo	chapter13/webserver_theme/README.md	/^# Webserver theme demo$/;"	c
+[1.0] - 30-09-2019	CHANGELOG.md	/^## [1.0] - 30-09-2019$/;"	s	chapter:Changelog
+__enter__	chapter08/dags/custom/hooks.py	/^    def __enter__(self):$/;"	m	class:MovielensHook
+__enter__	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def __enter__(self):$/;"	m	class:MovielensHook
+__enter__	chapter16/dags/custom/hooks.py	/^    def __enter__(self):$/;"	m	class:MovielensHook
+__enter__	chapter17/dags/custom/hooks.py	/^    def __enter__(self):$/;"	m	class:MovielensHook
+__enter__	chapter18/dags/custom/hooks.py	/^    def __enter__(self):$/;"	m	class:MovielensHook
+__exit__	chapter08/dags/custom/hooks.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MovielensHook
+__exit__	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MovielensHook
+__exit__	chapter16/dags/custom/hooks.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MovielensHook
+__exit__	chapter17/dags/custom/hooks.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MovielensHook
+__exit__	chapter18/dags/custom/hooks.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MovielensHook
+__init__	chapter07/insideairbnb/dags/custom/postgres_to_s3_operator.py	/^    def __init__($/;"	m	class:PostgresToS3Operator
+__init__	chapter08/dags/custom/hooks.py	/^    def __init__(self, conn_id, retry=3):$/;"	m	class:MovielensHook
+__init__	chapter08/dags/custom/operators.py	/^    def __init__($/;"	m	class:MovielensFetchRatingsOperator
+__init__	chapter08/dags/custom/sensors.py	/^    def __init__(self, conn_id, start_date="{{ds}}", end_date="{{next_ds}}", **kwargs):$/;"	m	class:MovielensRatingsSensor
+__init__	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def __init__(self, conn_id, retry=3):$/;"	m	class:MovielensHook
+__init__	chapter08/package/airflow-movielens/src/airflow_movielens/operators.py	/^    def __init__($/;"	m	class:MovielensFetchRatingsOperator
+__init__	chapter08/package/airflow-movielens/src/airflow_movielens/sensors.py	/^    def __init__(self, conn_id, start_date="{{ds}}", end_date="{{next_ds}}", **kwargs):$/;"	m	class:MovielensRatingsSensor
+__init__	chapter14/src/nyctransport/operators/pandas_operator.py	/^    def __init__($/;"	m	class:PandasOperator
+__init__	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^    def __init__($/;"	m	class:MinioPandasToPostgres
+__init__	chapter16/dags/custom/hooks.py	/^    def __init__(self, conn_id, retry=3):$/;"	m	class:MovielensHook
+__init__	chapter16/dags/custom/operators.py	/^    def __init__($/;"	m	class:GlueTriggerCrawlerOperator
+__init__	chapter17/dags/custom/hooks.py	/^    def __init__(self, conn_id, retry=3):$/;"	m	class:MovielensHook
+__init__	chapter18/dags/custom/hooks.py	/^    def __init__(self, conn_id, retry=3):$/;"	m	class:MovielensHook
+_calculate_stats	chapter03/dags/01_unscheduled.py	/^def _calculate_stats(input_path, output_path):$/;"	f
+_calculate_stats	chapter03/dags/02_daily_schedule.py	/^def _calculate_stats(input_path, output_path):$/;"	f
+_calculate_stats	chapter03/dags/03_with_end_date.py	/^def _calculate_stats(input_path, output_path):$/;"	f
+_calculate_stats	chapter03/dags/04_time_delta.py	/^def _calculate_stats(input_path, output_path):$/;"	f
+_calculate_stats	chapter03/dags/05_query_with_dates.py	/^def _calculate_stats(input_path, output_path):$/;"	f
+_calculate_stats	chapter03/dags/06_templated_query.py	/^def _calculate_stats(input_path, output_path):$/;"	f
+_calculate_stats	chapter03/dags/07_templated_query_ds.py	/^def _calculate_stats(input_path, output_path):$/;"	f
+_calculate_stats	chapter03/dags/08_templated_path.py	/^def _calculate_stats(**context):$/;"	f
+_calculate_stats	chapter03/dags/09_no_catchup.py	/^def _calculate_stats(**context):$/;"	f
+_calculate_stats	chapter03/dags/10_non_atomic_send.py	/^def _calculate_stats(**context):$/;"	f
+_calculate_stats	chapter03/dags/11_atomic_send.py	/^def _calculate_stats(**context):$/;"	f
+_clean_sales	chapter05/dags/02_branch_function.py	/^def _clean_sales(**context):$/;"	f
+_clean_sales	chapter05/dags/02_branch_task.py	/^def _clean_sales(**context):$/;"	f
+_clean_sales_new	chapter05/dags/02_branch_function.py	/^def _clean_sales_new(**context):$/;"	f
+_clean_sales_new	chapter05/dags/02_branch_task.py	/^def _clean_sales_new(**context):$/;"	f
+_clean_sales_new	chapter05/dags/03_branch_dag.py	/^def _clean_sales_new(**context):$/;"	f
+_clean_sales_new	chapter05/dags/04_branch_dag_join.py	/^def _clean_sales_new(**context):$/;"	f
+_clean_sales_new	chapter11/dags/04_task_groups_umbrella.py	/^def _clean_sales_new(**context):$/;"	f
+_clean_sales_old	chapter05/dags/02_branch_function.py	/^def _clean_sales_old(**context):$/;"	f
+_clean_sales_old	chapter05/dags/02_branch_task.py	/^def _clean_sales_old(**context):$/;"	f
+_clean_sales_old	chapter05/dags/03_branch_dag.py	/^def _clean_sales_old(**context):$/;"	f
+_clean_sales_old	chapter05/dags/04_branch_dag_join.py	/^def _clean_sales_old(**context):$/;"	f
+_clean_sales_old	chapter11/dags/04_task_groups_umbrella.py	/^def _clean_sales_old(**context):$/;"	f
+_crunch_numbers	chapter07/insideairbnb/dags/chapter7_insideairbnb_pythonoperator.py	/^def _crunch_numbers():$/;"	f
+_date_to_timestamp	chapter08/docker/movielens-api/app.py	/^def _date_to_timestamp(date_str):$/;"	f
+_deploy_model	chapter05/dags/05_condition_task.py	/^def _deploy_model(**context):$/;"	f
+_deploy_model	chapter05/dags/09_xcoms.py	/^def _deploy_model(**context):$/;"	f
+_deploy_model	chapter05/dags/10_xcoms_template.py	/^def _deploy_model(templates_dict, **context):$/;"	f
+_deploy_model	chapter05/dags/11_xcoms_return.py	/^def _deploy_model(templates_dict, **context):$/;"	f
+_download_citi_bike_data	chapter14/dags/nyc_dag.py	/^def _download_citi_bike_data(ts_nodash, **_):$/;"	f
+_download_taxi_data	chapter14/dags/nyc_dag.py	/^def _download_taxi_data():$/;"	f
+_email_stats	chapter03/dags/10_non_atomic_send.py	/^def _email_stats(stats, email):$/;"	f
+_extract_mnist_data	chapter07/digit_classifier/dags/chapter9_digit_classifier.py	/^def _extract_mnist_data():$/;"	f
+_fetch_pageviews	chapter04/dags/listing_4_15.py	/^def _fetch_pageviews(pagenames):$/;"	f
+_fetch_pageviews	chapter04/dags/listing_4_18.py	/^def _fetch_pageviews(pagenames, execution_date, **_):$/;"	f
+_fetch_pageviews	chapter04/dags/listing_4_20.py	/^def _fetch_pageviews(pagenames, execution_date):$/;"	f
+_fetch_ratings	chapter08/dags/01_python.py	/^    def _fetch_ratings(templates_dict, batch_size=1000, **_):$/;"	f
+_fetch_ratings	chapter08/dags/02_hook.py	/^    def _fetch_ratings(conn_id, templates_dict, batch_size=1000, **_):$/;"	f
+_fetch_ratings	chapter16/dags/01_aws_usecase.py	/^    def _fetch_ratings(api_conn_id, s3_conn_id, s3_bucket, **context):$/;"	f
+_fetch_ratings	chapter17/dags/01_azure_usecase.py	/^def _fetch_ratings(api_conn_id, wasb_conn_id, container, **context):$/;"	f
+_fetch_ratings	chapter18/dags/gcp.py	/^def _fetch_ratings(api_conn_id, gcp_conn_id, gcs_bucket, **context):$/;"	f
+_fetch_sales	chapter05/dags/02_branch_function.py	/^def _fetch_sales(**context):$/;"	f
+_fetch_sales	chapter05/dags/02_branch_task.py	/^def _fetch_sales(**context):$/;"	f
+_fetch_sales	chapter05/dags/08_trigger_rules.py	/^def _fetch_sales(**context):$/;"	f
+_fetch_sales_new	chapter05/dags/02_branch_function.py	/^def _fetch_sales_new(**context):$/;"	f
+_fetch_sales_new	chapter05/dags/02_branch_task.py	/^def _fetch_sales_new(**context):$/;"	f
+_fetch_sales_new	chapter05/dags/03_branch_dag.py	/^def _fetch_sales_new(**context):$/;"	f
+_fetch_sales_new	chapter05/dags/04_branch_dag_join.py	/^def _fetch_sales_new(**context):$/;"	f
+_fetch_sales_new	chapter11/dags/04_task_groups_umbrella.py	/^def _fetch_sales_new(**context):$/;"	f
+_fetch_sales_old	chapter05/dags/02_branch_function.py	/^def _fetch_sales_old(**context):$/;"	f
+_fetch_sales_old	chapter05/dags/02_branch_task.py	/^def _fetch_sales_old(**context):$/;"	f
+_fetch_sales_old	chapter05/dags/03_branch_dag.py	/^def _fetch_sales_old(**context):$/;"	f
+_fetch_sales_old	chapter05/dags/04_branch_dag_join.py	/^def _fetch_sales_old(**context):$/;"	f
+_fetch_sales_old	chapter11/dags/04_task_groups_umbrella.py	/^def _fetch_sales_old(**context):$/;"	f
+_generate_events	chapter03/docker/events-api/app.py	/^def _generate_events(end_date):$/;"	f
+_generate_events_for_day	chapter03/docker/events-api/app.py	/^def _generate_events_for_day(date):$/;"	f
+_get_data	chapter04/dags/listing_4_13.py	/^def _get_data(year, month, day, hour, output_path, **_):$/;"	f
+_get_data	chapter04/dags/listing_4_15.py	/^def _get_data(year, month, day, hour, output_path, **_):$/;"	f
+_get_data	chapter04/dags/listing_4_18.py	/^def _get_data(year, month, day, hour, output_path, **_):$/;"	f
+_get_data	chapter04/dags/listing_4_20.py	/^def _get_data(year, month, day, hour, output_path):$/;"	f
+_get_data	chapter04/dags/listing_4_5.py	/^def _get_data(execution_date):$/;"	f
+_get_pictures	chapter02/dags/download_rocket_launches.py	/^def _get_pictures():$/;"	f
+_get_pictures	chapter02/dags/listing_2_10.py	/^def _get_pictures():$/;"	f
+_get_pictures	chapter02/dags/listing_2_2.py	/^def _get_pictures():$/;"	f
+_get_pictures	chapter02/dags/listing_2_6.py	/^def _get_pictures():$/;"	f
+_get_ratings	chapter08/dags/01_python.py	/^def _get_ratings(start_date, end_date, batch_size=100):$/;"	f
+_get_ratings	chapter10/docker/images/movielens-fetch-reqs/scripts/fetch_ratings.py	/^def _get_ratings(session, host, start_date, end_date, batch_size=100):$/;"	f
+_get_ratings	chapter10/docker/images/movielens-fetch/scripts/fetch_ratings.py	/^def _get_ratings(session, host, start_date, end_date, batch_size=100):$/;"	f
+_get_session	chapter08/dags/01_python.py	/^def _get_session():$/;"	f
+_get_with_pagination	chapter08/dags/01_python.py	/^def _get_with_pagination(session, url, params, batch_size=100):$/;"	f
+_get_with_pagination	chapter08/dags/custom/hooks.py	/^    def _get_with_pagination(self, endpoint, params, batch_size=100):$/;"	m	class:MovielensHook
+_get_with_pagination	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def _get_with_pagination(self, endpoint, params, batch_size=100):$/;"	m	class:MovielensHook
+_get_with_pagination	chapter10/docker/images/movielens-fetch-reqs/scripts/fetch_ratings.py	/^def _get_with_pagination(session, url, params, batch_size=100):$/;"	f
+_get_with_pagination	chapter10/docker/images/movielens-fetch/scripts/fetch_ratings.py	/^def _get_with_pagination(session, url, params, batch_size=100):$/;"	f
+_get_with_pagination	chapter16/dags/custom/hooks.py	/^    def _get_with_pagination(self, endpoint, params, batch_size=100):$/;"	m	class:MovielensHook
+_get_with_pagination	chapter17/dags/custom/hooks.py	/^    def _get_with_pagination(self, endpoint, params, batch_size=100):$/;"	m	class:MovielensHook
+_get_with_pagination	chapter18/dags/custom/hooks.py	/^    def _get_with_pagination(self, endpoint, params, batch_size=100):$/;"	m	class:MovielensHook
+_is_latest_run	chapter05/dags/05_condition_task.py	/^def _is_latest_run(**context):$/;"	f
+_latest_only	chapter05/dags/06_condition_dag.py	/^def _latest_only(**context):$/;"	f
+_pick_erp_system	chapter05/dags/03_branch_dag.py	/^def _pick_erp_system(**context):$/;"	f
+_pick_erp_system	chapter05/dags/04_branch_dag_join.py	/^def _pick_erp_system(**context):$/;"	f
+_pick_erp_system	chapter05/dags/05_condition_task.py	/^def _pick_erp_system(**context):$/;"	f
+_pick_erp_system	chapter05/dags/06_condition_dag.py	/^def _pick_erp_system(**context):$/;"	f
+_pick_erp_system	chapter05/dags/07_condition_dag_op.py	/^def _pick_erp_system(**context):$/;"	f
+_pick_erp_system	chapter11/dags/04_task_groups_umbrella.py	/^def _pick_erp_system(**context):$/;"	f
+_print_context	chapter04/dags/listing_4_3.py	/^def _print_context(**kwargs):$/;"	f
+_print_context	chapter04/dags/listing_4_7.py	/^def _print_context(**context):$/;"	f
+_print_context	chapter04/dags/listing_4_8.py	/^def _print_context(**context):$/;"	f
+_rank_movies	chapter08/dags/01_python.py	/^    def _rank_movies(templates_dict, min_ratings=2, **_):$/;"	f
+_rank_movies	chapter17/dags/01_azure_usecase.py	/^def _rank_movies($/;"	f
+_read_ratings	chapter08/docker/movielens-api/app.py	/^def _read_ratings(file_path):$/;"	f
+_send_stats	chapter03/dags/11_atomic_send.py	/^def _send_stats(email, **context):$/;"	f
+_str_to_datetime	chapter03/docker/events-api/app.py	/^def _str_to_datetime(value):$/;"	f
+_train_model	chapter05/dags/09_xcoms.py	/^def _train_model(**context):$/;"	f
+_train_model	chapter05/dags/10_xcoms_template.py	/^def _train_model(**context):$/;"	f
+_train_model	chapter05/dags/11_xcoms_return.py	/^def _train_model(**context):$/;"	f
+_wait_for_supermarket	chapter06/dags/figure_6_11.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
+_wait_for_supermarket	chapter06/dags/figure_6_12.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
+_wait_for_supermarket	chapter06/dags/figure_6_6.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
+_wait_for_supermarket	chapter06/dags/figure_6_9.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
+_wait_for_supermarket	chapter06/dags/listing_6_2.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
+_wait_for_supermarket	chapter06/dags/listing_6_4.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
+abbrev	chapter02/example/launchlibrary2_snippet.json	/^                    "abbrev": "PO"$/;"	s	object:results.8.mission.orbit
+abbrev	chapter02/example/launchlibrary2_snippet.json	/^                    "abbrev": "SSO"$/;"	s	object:results.1.mission.orbit
+abbrev	chapter02/example/launchlibrary2_snippet.json	/^                    "abbrev": "SSO"$/;"	s	object:results.2.mission.orbit
+abbrev	chapter02/example/launchlibrary2_snippet.json	/^                    "abbrev": "Sub"$/;"	s	object:results.9.mission.orbit
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": 1002,$/;"	n	object:results.9.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": 115,$/;"	n	object:results.2.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": 121,$/;"	n	object:results.5.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": 121,$/;"	n	object:results.6.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": 147,$/;"	n	object:results.7.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": null,$/;"	z	object:results.0.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": null,$/;"	z	object:results.1.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": null,$/;"	z	object:results.3.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": null,$/;"	z	object:results.4.pad
+agency_id	chapter02/example/launchlibrary2_snippet.json	/^                "agency_id": null,$/;"	z	object:results.8.pad
+airflow-start	chapter18/Makefile	/^airflow-start: ## Spin up Docker containers for running GCP DAG using Docker Compose$/;"	t
+airflow-stop	chapter18/Makefile	/^airflow-stop: ## Tear down Docker Compose setup$/;"	t
+airflow_environment	chapter01/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter02/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter03/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter04/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter05/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter06/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter07/insideairbnb/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter08/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter10/docker/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter10/kubernetes/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter11/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter12/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter13/ldap/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter13/rbac/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter13/secretsbackend/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter13/webserver_theme/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter14/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter16/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter17/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter18/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_execution_date	chapter14/services/result_db/create_tables.sql	/^    airflow_execution_date TIMESTAMP$/;"	E	table:citi_bike_rides
+airflow_execution_date	chapter14/services/result_db/create_tables.sql	/^    airflow_execution_date TIMESTAMP$/;"	E	table:taxi_rides
+airflow_image	chapter01/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter02/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter03/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter04/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter05/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter06/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter07/insideairbnb/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.0.0-python3.8$/;"	a
+airflow_image	chapter08/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter10/docker/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter10/kubernetes/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter11/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter12/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter13/ldap/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter13/rbac/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter13/secretsbackend/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter13/webserver_theme/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter14/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter16/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter17/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter18/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+api_gateway_stage	chapter07/digit_classifier/number-classifier/.chalice/config.json	/^      "api_gateway_stage": "api"$/;"	s	object:stages.dev
+app	chapter03/docker/events-api/app.py	/^app = Flask(__name__)$/;"	v
+app	chapter07/digit_classifier/number-classifier/app.py	/^app = Chalice(app_name="number-classifier")$/;"	v
+app	chapter08/docker/movielens-api/app.py	/^app = Flask(__name__)$/;"	v
+app	chapter13/secretsbackend/secure_api/app.py	/^app = Flask(__name__)$/;"	v
+app	chapter14/services/citibike_api/app.py	/^app = Flask(__name__)$/;"	v
+app	chapter14/services/nyc_transportation_api/app.py	/^app = Flask(__name__)$/;"	v
+app_name	chapter07/digit_classifier/number-classifier/.chalice/config.json	/^  "app_name": "number-classifier",$/;"	s
+auth	chapter08/docker/movielens-api/app.py	/^auth = HTTPBasicAuth()$/;"	v
+auth	chapter14/services/citibike_api/app.py	/^auth = HTTPBasicAuth()$/;"	v
+backend	chapter13/secretsbackend/vault-config.json	/^    "backend": {$/;"	o
+basedir	chapter13/ldap/webserver_config.py	/^basedir = os.path.abspath(os.path.dirname(__file__))$/;"	v
+basedir	chapter13/webserver_theme/webserver_config.py	/^basedir = os.path.abspath(os.path.dirname(__file__))$/;"	v
+biggest_decrease	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^biggest_decrease = df_with_max.nsmallest(5, "price_diff_per_day")$/;"	v
+biggest_decrease_bytes	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^biggest_decrease_bytes = biggest_decrease_json.encode("utf-8")$/;"	v
+biggest_decrease_json	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^biggest_decrease_json = biggest_decrease.to_json(orient="records")$/;"	v
+biggest_increase	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^biggest_increase = df_with_max.nlargest(5, "price_diff_per_day")$/;"	v
+biggest_increase_bytes	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^biggest_increase_bytes = biggest_increase_json.encode("utf-8")$/;"	v
+biggest_increase_json	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^biggest_increase_json = biggest_increase.to_json(orient="records")$/;"	v
+build	chapter12/docker/Makefile	/^build: build-base build-docker$/;"	t
+build-base	chapter12/docker/Makefile	/^build-base:$/;"	t
+build-docker	chapter12/docker/Makefile	/^build-docker:$/;"	t
+build_airflow	chapter14/Makefile	/^build_airflow: ## Build Airflow with additional dependencies$/;"	t
+build_all	chapter14/Makefile	/^build_all: build_citibike build_taxi build_airflow build_nyc_transportation_api ## Build all Doc/;"	t
+build_citibike	chapter14/Makefile	/^build_citibike: build_citibike_api build_citibike_db ## Build the Citi Bike API & DB Docker imag/;"	t
+build_citibike_api	chapter14/Makefile	/^build_citibike_api: ## Build the Citi Bike API Docker image$/;"	t
+build_citibike_db	chapter14/Makefile	/^build_citibike_db: ## Build the Citi Bike DB Docker image$/;"	t
+build_nyc_transportation_api	chapter14/Makefile	/^build_nyc_transportation_api: ## Build NYC Transportation API$/;"	t
+build_taxi	chapter14/Makefile	/^build_taxi: build_taxi_fileserver build_taxi_db ## Build the NYC Yellow Taxi fileserver & DB Doc/;"	t
+build_taxi_db	chapter14/Makefile	/^build_taxi_db: ## Build the NYC Yellow Taxi DB Docker image$/;"	t
+build_taxi_fileserver	chapter14/Makefile	/^build_taxi_fileserver: ## Build the NYC Yellow Taxi fileserver Docker image$/;"	t
+calculate_stats	chapter03/dags/01_unscheduled.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/02_daily_schedule.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/03_with_end_date.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/04_time_delta.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/05_query_with_dates.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/06_templated_query.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/07_templated_query_ds.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/08_templated_path.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/09_no_catchup.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/10_non_atomic_send.py	/^calculate_stats = PythonOperator($/;"	v
+calculate_stats	chapter03/dags/11_atomic_send.py	/^calculate_stats = PythonOperator($/;"	v
+call_api	chapter13/secretsbackend/dag.py	/^call_api = SimpleHttpOperator($/;"	v
+citi_bike_rides	chapter14/services/result_db/create_tables.sql	/^CREATE TABLE citi_bike_rides($/;"	t
+citi_bike_to_db	chapter14/dags/nyc_dag.py	/^citi_bike_to_db = MinioPandasToPostgres($/;"	v
+clean_forecast_data	chapter01/dags/01_umbrella.py	/^clean_forecast_data = DummyOperator(task_id="clean_forecast_data", dag=dag)$/;"	v
+clean_sales	chapter05/dags/01_start.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
+clean_sales	chapter05/dags/02_branch_function.py	/^    clean_sales = PythonOperator(task_id="clean_sales", python_callable=_clean_sales)$/;"	v
+clean_sales	chapter05/dags/02_branch_task.py	/^    clean_sales = PythonOperator(task_id="clean_sales", python_callable=_clean_sales)$/;"	v
+clean_sales	chapter05/dags/08_trigger_rules.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
+clean_sales	chapter05/dags/09_xcoms.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
+clean_sales	chapter05/dags/10_xcoms_template.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
+clean_sales	chapter05/dags/11_xcoms_return.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
+clean_sales	chapter05/dags/13_taskflow_full.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
+clean_sales_data	chapter01/dags/01_umbrella.py	/^clean_sales_data = DummyOperator(task_id="clean_sales_data", dag=dag)$/;"	v
+clean_sales_new	chapter05/dags/03_branch_dag.py	/^    clean_sales_new = PythonOperator($/;"	v
+clean_sales_new	chapter05/dags/04_branch_dag_join.py	/^    clean_sales_new = PythonOperator($/;"	v
+clean_sales_new	chapter05/dags/05_condition_task.py	/^    clean_sales_new = DummyOperator(task_id="clean_sales_new")$/;"	v
+clean_sales_new	chapter05/dags/06_condition_dag.py	/^    clean_sales_new = DummyOperator(task_id="clean_sales_new")$/;"	v
+clean_sales_new	chapter05/dags/07_condition_dag_op.py	/^    clean_sales_new = DummyOperator(task_id="clean_sales_new")$/;"	v
+clean_sales_new	chapter11/dags/04_task_groups_umbrella.py	/^        clean_sales_new = PythonOperator($/;"	v
+clean_sales_old	chapter05/dags/03_branch_dag.py	/^    clean_sales_old = PythonOperator($/;"	v
+clean_sales_old	chapter05/dags/04_branch_dag_join.py	/^    clean_sales_old = PythonOperator($/;"	v
+clean_sales_old	chapter05/dags/05_condition_task.py	/^    clean_sales_old = DummyOperator(task_id="clean_sales_old")$/;"	v
+clean_sales_old	chapter05/dags/06_condition_dag.py	/^    clean_sales_old = DummyOperator(task_id="clean_sales_old")$/;"	v
+clean_sales_old	chapter05/dags/07_condition_dag_op.py	/^    clean_sales_old = DummyOperator(task_id="clean_sales_old")$/;"	v
+clean_sales_old	chapter11/dags/04_task_groups_umbrella.py	/^        clean_sales_old = PythonOperator($/;"	v
+clean_weather	chapter05/dags/01_start.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/02_branch_function.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/02_branch_task.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/03_branch_dag.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/04_branch_dag_join.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/05_condition_task.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/06_condition_dag.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/07_condition_dag_op.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/08_trigger_rules.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/09_xcoms.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/10_xcoms_template.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/11_xcoms_return.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter05/dags/13_taskflow_full.py	/^    clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+clean_weather	chapter11/dags/04_task_groups_umbrella.py	/^        clean_weather = DummyOperator(task_id="clean_weather")$/;"	v
+client	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^client = Minio($/;"	v
+close	chapter08/dags/custom/hooks.py	/^    def close(self):$/;"	m	class:MovielensHook
+close	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def close(self):$/;"	m	class:MovielensHook
+close	chapter16/dags/custom/hooks.py	/^    def close(self):$/;"	m	class:MovielensHook
+close	chapter17/dags/custom/hooks.py	/^    def close(self):$/;"	m	class:MovielensHook
+close	chapter18/dags/custom/hooks.py	/^    def close(self):$/;"	m	class:MovielensHook
+compute_differences	chapter06/dags/figure_6_12.py	/^    compute_differences = DummyOperator($/;"	v
+compute_differences	chapter06/dags/listing_6_4.py	/^compute_differences = DummyOperator(task_id="compute_differences", dag=dag2)$/;"	v
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.0.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.1.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.2.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.3.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.4.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.5.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.6.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.7.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.8.rocket
+configuration	chapter02/example/launchlibrary2_snippet.json	/^                "configuration": {$/;"	o	object:results.9.rocket
+copy	chapter06/dags/figure_6_1.py	/^    copy = DummyOperator(task_id=f"copy_to_raw_supermarket_{supermarket_id}", dag=dag)$/;"	v
+copy	chapter06/dags/figure_6_11.py	/^    copy = DummyOperator(task_id=f"copy_to_raw_supermarket_{supermarket_id}", dag=dag)$/;"	v
+copy	chapter06/dags/figure_6_12.py	/^    copy = DummyOperator(task_id=f"copy_to_raw_supermarket_{supermarket_id}", dag=dag)$/;"	v
+copy	chapter06/dags/figure_6_5.py	/^    copy = DummyOperator(task_id=f"copy_to_raw_supermarket_{supermarket_id}", dag=dag)$/;"	v
+copy	chapter06/dags/figure_6_6.py	/^    copy = DummyOperator(task_id=f"copy_to_raw_supermarket_{supermarket_id}", dag=dag)$/;"	v
+copy	chapter06/dags/figure_6_8.py	/^    copy = FileSensor($/;"	v
+copy	chapter06/dags/figure_6_9.py	/^    copy = DummyOperator(task_id=f"copy_to_raw_supermarket_{supermarket_id}", dag=dag)$/;"	v
+copy	chapter06/dags/listing_6_4.py	/^    copy = DummyOperator(task_id=f"copy_to_raw_supermarket_{supermarket_id}", dag=dag1)$/;"	v
+copy_to_raw	chapter06/dags/listing_6_8.py	/^copy_to_raw = PythonOperator(task_id="copy_to_raw", python_callable=print_conf, dag=dag)$/;"	v
+count	chapter02/example/launchlibrary2_snippet.json	/^    "count": 178,$/;"	n
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "CHN",$/;"	s	object:results.1.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "CHN",$/;"	s	object:results.3.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "CHN",$/;"	s	object:results.4.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "GUF",$/;"	s	object:results.2.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "JPN",$/;"	s	object:results.9.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "UNK",$/;"	s	object:results.8.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "USA",$/;"	s	object:results.0.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "USA",$/;"	s	object:results.5.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "USA",$/;"	s	object:results.6.pad.location
+country_code	chapter02/example/launchlibrary2_snippet.json	/^                    "country_code": "USA",$/;"	s	object:results.7.pad.location
+create_metrics	chapter06/dags/figure_6_1.py	/^create_metrics = DummyOperator(task_id="create_metrics", dag=dag)$/;"	v
+create_metrics	chapter06/dags/figure_6_11.py	/^    create_metrics = DummyOperator(task_id=f"create_metrics_{supermarket_id}", dag=dag)$/;"	v
+create_metrics	chapter06/dags/figure_6_5.py	/^create_metrics = DummyOperator(task_id="create_metrics", dag=dag)$/;"	v
+create_metrics	chapter06/dags/figure_6_6.py	/^create_metrics = DummyOperator(task_id="create_metrics", dag=dag)$/;"	v
+create_metrics	chapter06/dags/figure_6_8.py	/^create_metrics = DummyOperator(task_id="create_metrics", dag=dag)$/;"	v
+create_metrics	chapter06/dags/figure_6_9.py	/^create_metrics = DummyOperator(task_id="create_metrics", dag=dag)$/;"	v
+create_metrics	chapter06/dags/listing_6_8.py	/^create_metrics = PythonOperator($/;"	v
+create_user_and_database	chapter07/insideairbnb/insideairbnb/postgres-init.sh	/^function create_user_and_database() {$/;"	f
+crunch_numbers	chapter07/insideairbnb/dags/chapter7_insideairbnb.py	/^crunch_numbers = DockerOperator($/;"	v
+crunch_numbers	chapter07/insideairbnb/dags/chapter7_insideairbnb_pythonoperator.py	/^crunch_numbers = PythonOperator($/;"	v
+dag	chapter01/dags/01_umbrella.py	/^dag = DAG($/;"	v
+dag	chapter02/dags/download_rocket_launches.py	/^dag = DAG($/;"	v
+dag	chapter02/dags/listing_2_10.py	/^dag = DAG($/;"	v
+dag	chapter02/dags/listing_2_2.py	/^dag = DAG($/;"	v
+dag	chapter02/dags/listing_2_3.py	/^dag = DAG($/;"	v
+dag	chapter02/dags/listing_2_4.py	/^dag = DAG($/;"	v
+dag	chapter02/dags/listing_2_6.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/01_unscheduled.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/02_daily_schedule.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/03_with_end_date.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/04_time_delta.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/05_query_with_dates.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/06_templated_query.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/07_templated_query_ds.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/08_templated_path.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/09_no_catchup.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/10_non_atomic_send.py	/^dag = DAG($/;"	v
+dag	chapter03/dags/11_atomic_send.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_1.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_13.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_15.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_18.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_20.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_3.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_5.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_7.py	/^dag = DAG($/;"	v
+dag	chapter04/dags/listing_4_8.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/figure_6_1.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/figure_6_11.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/figure_6_12.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/figure_6_5.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/figure_6_6.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/figure_6_8.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/figure_6_9.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/listing_6_1.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/listing_6_2.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/listing_6_3.py	/^dag = DAG($/;"	v
+dag	chapter06/dags/listing_6_8.py	/^dag = DAG($/;"	v
+dag	chapter07/digit_classifier/dags/chapter9_digit_classifier.py	/^dag = DAG($/;"	v
+dag	chapter07/insideairbnb/dags/chapter7_insideairbnb.py	/^dag = DAG($/;"	v
+dag	chapter07/insideairbnb/dags/chapter7_insideairbnb_pythonoperator.py	/^dag = DAG($/;"	v
+dag	chapter09/dags/bash_operator_no_command.py	/^dag = DAG($/;"	v
+dag	chapter09/dags/dag_cycle.py	/^dag = DAG($/;"	v
+dag	chapter09/dags/duplicate_task_ids.py	/^dag = DAG($/;"	v
+dag	chapter09/dags/testme.py	/^dag = DAG($/;"	v
+dag	chapter12/dags/dag_failure_callback.py	/^dag = DAG($/;"	v
+dag	chapter12/dags/dag_puller_dag.py	/^dag = DAG($/;"	v
+dag	chapter12/dags/task_failure_callback.py	/^dag = DAG($/;"	v
+dag	chapter12/dags/task_failure_email.py	/^dag = DAG($/;"	v
+dag	chapter12/dags/task_sla.py	/^dag = DAG($/;"	v
+dag	chapter13/ldap/dags/hello_airflow.py	/^dag = DAG($/;"	v
+dag	chapter13/rbac/dags/hello_airflow.py	/^dag = DAG($/;"	v
+dag	chapter13/secretsbackend/dag.py	/^dag = DAG($/;"	v
+dag	chapter13/webserver_theme/dags/hello_airflow.py	/^dag = DAG($/;"	v
+dag	chapter14/dags/nyc_dag.py	/^dag = DAG($/;"	v
+dag	chapter18/dags/gcp.py	/^dag = DAG($/;"	v
+dag1	chapter06/dags/figure_6_19.py	/^dag1 = DAG($/;"	v
+dag1	chapter06/dags/figure_6_20.py	/^dag1 = DAG($/;"	v
+dag1	chapter06/dags/listing_6_4.py	/^dag1 = DAG($/;"	v
+dag2	chapter06/dags/figure_6_19.py	/^dag2 = DAG($/;"	v
+dag2	chapter06/dags/figure_6_20.py	/^dag2 = DAG($/;"	v
+dag2	chapter06/dags/listing_6_4.py	/^dag2 = DAG($/;"	v
+dag3	chapter06/dags/figure_6_19.py	/^dag3 = DAG($/;"	v
+dag4	chapter06/dags/figure_6_19.py	/^dag4 = DAG($/;"	v
+data/ratings	chapter18/Makefile	/^data\/ratings: ## Download the ratings data$/;"	t
+date_utils	chapter11/dags/05_sla_misses.py	/^from airflow.utils import dates as date_utils$/;"	x	nameref:unknown:dates
+datetime	chapter04/scripts/create_table.sql	/^    datetime TIMESTAMP NOT NULL$/;"	E	table:pageview_counts
+default_args	chapter11/dags/05_sla_misses.py	/^default_args = {"sla": timedelta(seconds=10)}$/;"	v
+delete_result_table	chapter18/dags/gcp.py	/^delete_result_table = BigQueryDeleteTableOperator($/;"	v
+deploy_ml_model	chapter01/dags/01_umbrella.py	/^deploy_ml_model = DummyOperator(task_id="deploy_ml_model", dag=dag)$/;"	v
+deploy_model	chapter05/dags/01_start.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/02_branch_function.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/02_branch_task.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/03_branch_dag.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/04_branch_dag_join.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/05_condition_task.py	/^    deploy_model = PythonOperator(task_id="deploy_model", python_callable=_deploy_model)$/;"	v
+deploy_model	chapter05/dags/06_condition_dag.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/07_condition_dag_op.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/08_trigger_rules.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+deploy_model	chapter05/dags/09_xcoms.py	/^    deploy_model = PythonOperator(task_id="deploy_model", python_callable=_deploy_model)$/;"	v
+deploy_model	chapter05/dags/10_xcoms_template.py	/^    deploy_model = PythonOperator($/;"	v
+deploy_model	chapter05/dags/11_xcoms_return.py	/^    deploy_model = PythonOperator($/;"	v
+deploy_model	chapter05/dags/12_taskflow.py	/^    def deploy_model(model_id: str):$/;"	f
+deploy_model	chapter05/dags/13_taskflow_full.py	/^    def deploy_model(model_id: str):$/;"	f
+deploy_model	chapter11/dags/04_task_groups_umbrella.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "A U.S. Air Force experimental spacecraft.",$/;"	s	object:results.7.mission
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "Classified payload for NRO.",$/;"	s	object:results.0.mission
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "Jilin-1 is a series of Chinese commercial remote sensing satelli/;"	s	object:results.3.mission
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "Jilin-1 is a series of Chinese commercial remote sensing satelli/;"	s	object:results.4.mission
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "The CSO 2 (Composante Spatiale Optique 2) satellite is the secon/;"	s	object:results.2.mission
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "The sixth (Flight 6 has not happened yet) flight of Interstellar/;"	s	object:results.9.mission
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "This is Virgin Orbit's second attempt to launch the LauncherOne /;"	s	object:results.8.mission
+description	chapter02/example/launchlibrary2_snippet.json	/^                "description": "XJY-7 is an undisclosed Chinese government payload for the first/;"	s	object:results.1.mission
+dev	chapter07/digit_classifier/number-classifier/.chalice/config.json	/^    "dev": {$/;"	o	object:stages
+df	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^    df = df.append(temp_df)$/;"	v
+df	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^df = pd.DataFrame()$/;"	v
+df_with_max	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^df_with_max = ($/;"	v
+df_with_max	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^df_with_max = df_with_max[$/;"	v
+df_with_min	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^df_with_min = ($/;"	v
+download_citi_bike_data	chapter14/dags/nyc_dag.py	/^download_citi_bike_data = PythonOperator($/;"	v
+download_from_postgres	chapter07/insideairbnb/dags/chapter7_insideairbnb.py	/^download_from_postgres = PostgresToS3Operator($/;"	v
+download_from_postgres	chapter07/insideairbnb/dags/chapter7_insideairbnb_pythonoperator.py	/^download_from_postgres = PostgresToS3Operator($/;"	v
+download_launches	chapter02/dags/download_rocket_launches.py	/^download_launches = BashOperator($/;"	v
+download_launches	chapter02/dags/listing_2_10.py	/^download_launches = BashOperator($/;"	v
+download_launches	chapter02/dags/listing_2_2.py	/^download_launches = BashOperator($/;"	v
+download_launches	chapter02/dags/listing_2_4.py	/^download_launches = BashOperator($/;"	v
+download_launches	chapter02/dags/listing_2_6.py	/^download_launches = BashOperator($/;"	v
+download_mnist_data	chapter07/digit_classifier/dags/chapter9_digit_classifier.py	/^download_mnist_data = S3CopyObjectOperator($/;"	v
+download_taxi_data	chapter14/dags/nyc_dag.py	/^download_taxi_data = PythonOperator($/;"	v
+dt	chapter03/dags/03_with_end_date.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/04_time_delta.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/05_query_with_dates.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/06_templated_query.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/07_templated_query_ds.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/08_templated_path.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/09_no_catchup.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/10_non_atomic_send.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter03/dags/11_atomic_send.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter08/dags/01_python.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter08/dags/02_hook.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter08/dags/03_operator.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter08/dags/04_sensor.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter10/docker/dags/01_docker.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter10/kubernetes/dags/02_kubernetes.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter16/dags/01_aws_usecase.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter16/dags/custom/hooks.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter17/dags/01_azure_usecase.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter17/dags/custom/hooks.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+dt	chapter18/dags/custom/hooks.py	/^import datetime as dt$/;"	I	nameref:module:datetime
+email_stats	chapter03/dags/11_atomic_send.py	/^def email_stats(stats, email):$/;"	f
+end_location_id	chapter14/services/result_db/create_tables.sql	/^    end_location_id INTEGER,$/;"	E	table:citi_bike_rides
+end_location_id	chapter14/services/result_db/create_tables.sql	/^    end_location_id INTEGER,$/;"	E	table:taxi_rides
+events	chapter03/docker/events-api/app.py	/^def events():$/;"	f
+example_1_dag_1	chapter06/dags/figure_6_17.py	/^example_1_dag_1 = DAG($/;"	v
+example_1_dag_2	chapter06/dags/figure_6_17.py	/^example_1_dag_2 = DAG($/;"	v
+example_2_dag_1	chapter06/dags/figure_6_17.py	/^example_2_dag_1 = DAG($/;"	v
+example_2_dag_2	chapter06/dags/figure_6_17.py	/^example_2_dag_2 = DAG($/;"	v
+example_2_dag_3	chapter06/dags/figure_6_17.py	/^example_2_dag_3 = DAG($/;"	v
+example_2_dag_4	chapter06/dags/figure_6_17.py	/^example_2_dag_4 = DAG($/;"	v
+example_3_dag_1	chapter06/dags/figure_6_17.py	/^example_3_dag_1 = DAG($/;"	v
+example_3_dag_2	chapter06/dags/figure_6_17.py	/^example_3_dag_2 = DAG($/;"	v
+example_3_dag_3	chapter06/dags/figure_6_17.py	/^example_3_dag_3 = DAG($/;"	v
+example_3_dag_4	chapter06/dags/figure_6_17.py	/^example_3_dag_4 = DAG($/;"	v
+execute	chapter07/insideairbnb/dags/custom/postgres_to_s3_operator.py	/^    def execute(self, context):$/;"	m	class:PostgresToS3Operator
+execute	chapter08/dags/custom/operators.py	/^    def execute(self, context):$/;"	m	class:MovielensFetchRatingsOperator
+execute	chapter08/package/airflow-movielens/src/airflow_movielens/operators.py	/^    def execute(self, context):$/;"	m	class:MovielensFetchRatingsOperator
+execute	chapter14/src/nyctransport/operators/pandas_operator.py	/^    def execute(self, context):$/;"	m	class:PandasOperator
+execute	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^    def execute(self, context):$/;"	m	class:MinioPandasToPostgres
+execute	chapter16/dags/custom/operators.py	/^    def execute(self, context):$/;"	m	class:GlueTriggerCrawlerOperator
+extra_requirements	chapter08/package/airflow-movielens/setup.py	/^extra_requirements = {"dev": ["pytest"]}$/;"	v
+extract_gz	chapter04/dags/listing_4_15.py	/^extract_gz = BashOperator($/;"	v
+extract_gz	chapter04/dags/listing_4_18.py	/^extract_gz = BashOperator($/;"	v
+extract_gz	chapter04/dags/listing_4_20.py	/^extract_gz = BashOperator($/;"	v
+extract_mnist_data	chapter07/digit_classifier/dags/chapter9_digit_classifier.py	/^extract_mnist_data = PythonOperator($/;"	v
+extract_top_ratings	chapter18/dags/gcp.py	/^extract_top_ratings = BigQueryToGCSOperator($/;"	v
+failing_task	chapter12/dags/task_failure_callback.py	/^failing_task = BashOperator(task_id="failing_task", bash_command="exit 1", dag=dag)$/;"	v
+failing_task	chapter12/dags/task_failure_email.py	/^failing_task = BashOperator(task_id="failing_task", bash_command="exit 1", dag=dag)$/;"	v
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.0
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.1
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.2
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.3
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.4
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.5
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.6
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.7
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.8
+failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.9
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Electron",$/;"	s	object:results.7.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Falcon",$/;"	s	object:results.0.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Falcon",$/;"	s	object:results.5.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Falcon",$/;"	s	object:results.6.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Kuaizhou",$/;"	s	object:results.3.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Kuaizhou",$/;"	s	object:results.4.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Launcher",$/;"	s	object:results.8.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Long March",$/;"	s	object:results.1.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "MOMO",$/;"	s	object:results.9.rocket.configuration
+family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Soyuz",$/;"	s	object:results.2.rocket.configuration
+fetch_code	chapter12/dags/dag_puller_dag.py	/^fetch_code = BashOperator($/;"	v
+fetch_events	chapter03/dags/01_unscheduled.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/02_daily_schedule.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/03_with_end_date.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/04_time_delta.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/05_query_with_dates.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/06_templated_query.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/07_templated_query_ds.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/08_templated_path.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/09_no_catchup.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/10_non_atomic_send.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03/dags/11_atomic_send.py	/^fetch_events = BashOperator($/;"	v
+fetch_pageviews	chapter04/dags/listing_4_15.py	/^fetch_pageviews = PythonOperator($/;"	v
+fetch_pageviews	chapter04/dags/listing_4_18.py	/^fetch_pageviews = PythonOperator($/;"	v
+fetch_pageviews	chapter04/dags/listing_4_20.py	/^fetch_pageviews = PythonOperator($/;"	v
+fetch_ratings	chapter08/dags/01_python.py	/^    fetch_ratings = PythonOperator($/;"	v
+fetch_ratings	chapter08/dags/04_sensor.py	/^    fetch_ratings = MovielensFetchRatingsOperator($/;"	v
+fetch_ratings	chapter08/docker/movielens-api/fetch_ratings.py	/^def fetch_ratings():$/;"	f
+fetch_ratings	chapter10/docker/dags/01_docker.py	/^    fetch_ratings = DockerOperator($/;"	v
+fetch_ratings	chapter10/kubernetes/dags/02_kubernetes.py	/^    fetch_ratings = KubernetesPodOperator($/;"	v
+fetch_ratings	chapter16/dags/01_aws_usecase.py	/^    fetch_ratings = PythonOperator($/;"	v
+fetch_ratings	chapter17/dags/01_azure_usecase.py	/^    fetch_ratings = PythonOperator($/;"	v
+fetch_ratings	chapter18/dags/gcp.py	/^fetch_ratings = PythonOperator($/;"	v
+fetch_ratings	chapter18/scripts/fetch_data.py	/^def fetch_ratings(url):$/;"	f
+fetch_sales	chapter05/dags/01_start.py	/^    fetch_sales = DummyOperator(task_id="fetch_sales")$/;"	v
+fetch_sales	chapter05/dags/02_branch_function.py	/^    fetch_sales = PythonOperator(task_id="fetch_sales", python_callable=_fetch_sales)$/;"	v
+fetch_sales	chapter05/dags/02_branch_task.py	/^    fetch_sales = PythonOperator(task_id="fetch_sales", python_callable=_fetch_sales)$/;"	v
+fetch_sales	chapter05/dags/08_trigger_rules.py	/^    fetch_sales = PythonOperator(task_id="fetch_sales", python_callable=_fetch_sales)$/;"	v
+fetch_sales	chapter05/dags/09_xcoms.py	/^    fetch_sales = DummyOperator(task_id="fetch_sales")$/;"	v
+fetch_sales	chapter05/dags/10_xcoms_template.py	/^    fetch_sales = DummyOperator(task_id="fetch_sales")$/;"	v
+fetch_sales	chapter05/dags/11_xcoms_return.py	/^    fetch_sales = DummyOperator(task_id="fetch_sales")$/;"	v
+fetch_sales	chapter05/dags/13_taskflow_full.py	/^    fetch_sales = DummyOperator(task_id="fetch_sales")$/;"	v
+fetch_sales_data	chapter01/dags/01_umbrella.py	/^fetch_sales_data = DummyOperator(task_id="fetch_sales_data", dag=dag)$/;"	v
+fetch_sales_new	chapter05/dags/03_branch_dag.py	/^    fetch_sales_new = PythonOperator($/;"	v
+fetch_sales_new	chapter05/dags/04_branch_dag_join.py	/^    fetch_sales_new = PythonOperator($/;"	v
+fetch_sales_new	chapter05/dags/05_condition_task.py	/^    fetch_sales_new = DummyOperator(task_id="fetch_sales_new")$/;"	v
+fetch_sales_new	chapter05/dags/06_condition_dag.py	/^    fetch_sales_new = DummyOperator(task_id="fetch_sales_new")$/;"	v
+fetch_sales_new	chapter05/dags/07_condition_dag_op.py	/^    fetch_sales_new = DummyOperator(task_id="fetch_sales_new")$/;"	v
+fetch_sales_new	chapter11/dags/04_task_groups_umbrella.py	/^        fetch_sales_new = PythonOperator($/;"	v
+fetch_sales_old	chapter05/dags/03_branch_dag.py	/^    fetch_sales_old = PythonOperator($/;"	v
+fetch_sales_old	chapter05/dags/04_branch_dag_join.py	/^    fetch_sales_old = PythonOperator($/;"	v
+fetch_sales_old	chapter05/dags/05_condition_task.py	/^    fetch_sales_old = DummyOperator(task_id="fetch_sales_old")$/;"	v
+fetch_sales_old	chapter05/dags/06_condition_dag.py	/^    fetch_sales_old = DummyOperator(task_id="fetch_sales_old")$/;"	v
+fetch_sales_old	chapter05/dags/07_condition_dag_op.py	/^    fetch_sales_old = DummyOperator(task_id="fetch_sales_old")$/;"	v
+fetch_sales_old	chapter11/dags/04_task_groups_umbrella.py	/^        fetch_sales_old = PythonOperator($/;"	v
+fetch_weather	chapter05/dags/01_start.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/02_branch_function.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/02_branch_task.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/03_branch_dag.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/04_branch_dag_join.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/05_condition_task.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/06_condition_dag.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/07_condition_dag_op.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/08_trigger_rules.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/09_xcoms.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/10_xcoms_template.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/11_xcoms_return.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter05/dags/13_taskflow_full.py	/^    fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather	chapter10/docker/images/wttr-example/scripts/fetch_weather.py	/^def fetch_weather(city, output_path):$/;"	f
+fetch_weather	chapter11/dags/04_task_groups_umbrella.py	/^        fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
+fetch_weather_forecast	chapter01/dags/01_umbrella.py	/^fetch_weather_forecast = DummyOperator(task_id="fetch_weather_forecast", dag=dag)$/;"	v
+file	chapter13/secretsbackend/vault-config.json	/^        "file": {$/;"	o	object:backend
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Electron",$/;"	s	object:results.7.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Falcon 9 Block 5",$/;"	s	object:results.0.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Falcon 9 Block 5",$/;"	s	object:results.5.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Falcon 9 Block 5",$/;"	s	object:results.6.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Kuaizhou-1A",$/;"	s	object:results.3.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Kuaizhou-1A",$/;"	s	object:results.4.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "LauncherOne",$/;"	s	object:results.8.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Long March 8",$/;"	s	object:results.1.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "MOMO",$/;"	s	object:results.9.rocket.configuration
+full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Soyuz STA\/Fregat",$/;"	s	object:results.2.rocket.configuration
+generate_dag	chapter11/dags/02_dag_factory.py	/^def generate_dag(dataset_name, raw_dir, processed_dir, preprocess_script):$/;"	f
+generate_metrics	chapter06/dags/figure_6_12.py	/^    generate_metrics = DummyOperator($/;"	v
+generate_tasks	chapter11/dags/01_task_factory.py	/^def generate_tasks($/;"	f
+generate_tasks	chapter11/dags/03_task_groups.py	/^def generate_tasks($/;"	f
+get_conn	chapter08/dags/custom/hooks.py	/^    def get_conn(self):$/;"	m	class:MovielensHook
+get_conn	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def get_conn(self):$/;"	m	class:MovielensHook
+get_conn	chapter16/dags/custom/hooks.py	/^    def get_conn(self):$/;"	m	class:MovielensHook
+get_conn	chapter17/dags/custom/hooks.py	/^    def get_conn(self):$/;"	m	class:MovielensHook
+get_conn	chapter18/dags/custom/hooks.py	/^    def get_conn(self):$/;"	m	class:MovielensHook
+get_data	chapter04/dags/listing_4_1.py	/^get_data = BashOperator($/;"	v
+get_data	chapter04/dags/listing_4_13.py	/^get_data = PythonOperator($/;"	v
+get_data	chapter04/dags/listing_4_15.py	/^get_data = PythonOperator($/;"	v
+get_data	chapter04/dags/listing_4_18.py	/^get_data = PythonOperator($/;"	v
+get_data	chapter04/dags/listing_4_20.py	/^get_data = PythonOperator($/;"	v
+get_data	chapter04/dags/listing_4_5.py	/^get_data = PythonOperator(task_id="get_data", python_callable=_get_data, dag=dag)$/;"	v
+get_minio_object	chapter14/dags/nyc_dag.py	/^def get_minio_object($/;"	f
+get_movies	chapter08/dags/custom/hooks.py	/^    def get_movies(self):$/;"	m	class:MovielensHook
+get_movies	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def get_movies(self):$/;"	m	class:MovielensHook
+get_pictures	chapter02/dags/download_rocket_launches.py	/^get_pictures = PythonOperator($/;"	v
+get_pictures	chapter02/dags/listing_2_10.py	/^get_pictures = PythonOperator($/;"	v
+get_pictures	chapter02/dags/listing_2_2.py	/^get_pictures = PythonOperator($/;"	v
+get_pictures	chapter02/dags/listing_2_6.py	/^get_pictures = PythonOperator($/;"	v
+get_ratings	chapter08/dags/custom/hooks.py	/^    def get_ratings(self, start_date=None, end_date=None, batch_size=100):$/;"	m	class:MovielensHook
+get_ratings	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def get_ratings(self, start_date=None, end_date=None, batch_size=100):$/;"	m	class:MovielensHook
+get_ratings	chapter16/dags/custom/hooks.py	/^    def get_ratings(self, start_date=None, end_date=None, batch_size=100):$/;"	m	class:MovielensHook
+get_ratings	chapter17/dags/custom/hooks.py	/^    def get_ratings(self, start_date=None, end_date=None, batch_size=100):$/;"	m	class:MovielensHook
+get_ratings	chapter18/dags/custom/hooks.py	/^    def get_ratings(self, start_date=None, end_date=None, batch_size=100):$/;"	m	class:MovielensHook
+get_ratings_for_month	chapter16/dags/custom/hooks.py	/^    def get_ratings_for_month(self, year, month, batch_size=100):$/;"	m	class:MovielensHook
+get_ratings_for_month	chapter17/dags/custom/hooks.py	/^    def get_ratings_for_month(self, year, month, batch_size=100):$/;"	m	class:MovielensHook
+get_ratings_for_month	chapter18/dags/custom/hooks.py	/^    def get_ratings_for_month(self, year, month, batch_size=100):$/;"	m	class:MovielensHook
+get_recent_rides	chapter14/services/citibike_api/app.py	/^def get_recent_rides(period: str, amount: int):$/;"	f
+get_users	chapter08/dags/custom/hooks.py	/^    def get_users(self):$/;"	m	class:MovielensHook
+get_users	chapter08/package/airflow-movielens/src/airflow_movielens/hooks.py	/^    def get_users(self):$/;"	m	class:MovielensHook
+grant_all	chapter07/insideairbnb/insideairbnb/postgres-init.sh	/^function grant_all() {$/;"	f
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.0
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.1
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.2
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.3
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.4
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.5
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.6
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.7
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.8
+hashtag	chapter02/example/launchlibrary2_snippet.json	/^            "hashtag": null,$/;"	z	object:results.9
+hello	chapter08/docker/movielens-api/app.py	/^def hello():$/;"	f
+help	chapter14/Makefile	/^help:$/;"	t
+help	chapter18/Makefile	/^help:$/;"	t
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.0
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.1
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.2
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.3
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.4
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.5
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.6
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.7
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.8
+holdreason	chapter02/example/launchlibrary2_snippet.json	/^            "holdreason": "",$/;"	s	object:results.9
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 12,$/;"	n	object:results.5.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 12,$/;"	n	object:results.6.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 13,$/;"	n	object:results.2.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 13,$/;"	n	object:results.8.mission.orbit
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 135,$/;"	n	object:results.3.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 135,$/;"	n	object:results.4.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 141,$/;"	n	object:results.8.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 15,$/;"	n	object:results.9.mission.orbit
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 164,$/;"	n	object:results.0.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 164,$/;"	n	object:results.5.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 164,$/;"	n	object:results.6.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 17,$/;"	n	object:results.1.mission.orbit
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 17,$/;"	n	object:results.2.mission.orbit
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 17,$/;"	n	object:results.3.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 17,$/;"	n	object:results.4.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 198,$/;"	n	object:results.9.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 20,$/;"	n	object:results.8.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 21,$/;"	n	object:results.7.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 26,$/;"	n	object:results.7.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 27,$/;"	n	object:results.0.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 32,$/;"	n	object:results.9.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 462,$/;"	n	object:results.1.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 49,$/;"	n	object:results.2.rocket.configuration
+id	chapter02/example/launchlibrary2_snippet.json	/^                    "id": 8,$/;"	n	object:results.1.pad.location
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 1002,$/;"	n	object:results.9.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 106,$/;"	n	object:results.9.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 1123,$/;"	n	object:results.7.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 1132,$/;"	n	object:results.9.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 115,$/;"	n	object:results.2.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 1156,$/;"	n	object:results.3.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 1157,$/;"	n	object:results.4.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 1195,$/;"	n	object:results.0.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 121,$/;"	n	object:results.0.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 121,$/;"	n	object:results.5.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 121,$/;"	n	object:results.6.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 1221,$/;"	n	object:results.1.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 136,$/;"	n	object:results.5.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 147,$/;"	n	object:results.7.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 184,$/;"	n	object:results.3.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 184,$/;"	n	object:results.4.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 189,$/;"	n	object:results.1.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 199,$/;"	n	object:results.8.launch_service_provider
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.1.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.2.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.3.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.4.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.5.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.6.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.7.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.8.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2,$/;"	n	object:results.9.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2135,$/;"	n	object:results.7.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2191,$/;"	n	object:results.2.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2518,$/;"	n	object:results.6.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2730,$/;"	n	object:results.9.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2736,$/;"	n	object:results.8.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2758,$/;"	n	object:results.3.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2759,$/;"	n	object:results.4.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2795,$/;"	n	object:results.0.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 2813,$/;"	n	object:results.1.rocket
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 3,$/;"	n	object:results.0.status
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 496,$/;"	n	object:results.8.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 53,$/;"	n	object:results.8.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 71,$/;"	n	object:results.3.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 71,$/;"	n	object:results.4.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 78,$/;"	n	object:results.1.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 79,$/;"	n	object:results.7.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 80,$/;"	n	object:results.5.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 80,$/;"	n	object:results.6.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 81,$/;"	n	object:results.2.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 87,$/;"	n	object:results.0.pad
+id	chapter02/example/launchlibrary2_snippet.json	/^                "id": 954,$/;"	n	object:results.2.mission
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "120c53d4-d3a1-42fe-b2a5-a63e3b11d72b",$/;"	s	object:results.7
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "20d9789c-dfdf-46b5-a964-de5f031615a5",$/;"	s	object:results.8
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "30412a48-cb4d-43d6-a304-6ae5f062504f",$/;"	s	object:results.3
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "504ba71a-bf09-48f1-9346-48c3d79e580b",$/;"	s	object:results.9
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "528b72ff-e47e-46a3-b7ad-23b2ffcec2f2",$/;"	s	object:results.0
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "57c418cc-97ae-4d8e-b806-bb0e0345217f",$/;"	s	object:results.1
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "708c2b85-50d6-4baa-bd3e-fdfb0257ea50",$/;"	s	object:results.4
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "7409ce63-4f65-44d6-804c-5784189bf7b5",$/;"	s	object:results.2
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "d5d607b7-05ed-4142-8703-14b553c195e0",$/;"	s	object:results.5
+id	chapter02/example/launchlibrary2_snippet.json	/^            "id": "f213a5df-579a-4682-8143-df228e463049",$/;"	s	object:results.6
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.0
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.1
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.2
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.3
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.4
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.5
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.6
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.7
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.8
+image	chapter02/example/launchlibrary2_snippet.json	/^            "image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/media\/lau/;"	s	object:results.9
+import_in_bigquery	chapter18/dags/gcp.py	/^import_in_bigquery = GCSToBigQueryOperator($/;"	v
+index	chapter13/secretsbackend/secure_api/app.py	/^def index():$/;"	f
+index	chapter14/services/citibike_api/app.py	/^def index():$/;"	f
+index	chapter14/services/nyc_transportation_api/app.py	/^def index():$/;"	f
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.0.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.1.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.2.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.3.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.4.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.5.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.6.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.7.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.8.pad
+info_url	chapter02/example/launchlibrary2_snippet.json	/^                "info_url": null,$/;"	z	object:results.9.pad
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/medi/;"	s	object:results.0
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.1
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.2
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.3
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.4
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.5
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.6
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.7
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.8
+infographic	chapter02/example/launchlibrary2_snippet.json	/^            "infographic": null,$/;"	z	object:results.9
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.0
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.1
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.2
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.3
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.4
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.5
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.6
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.7
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.8
+inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.9
+join_datasets	chapter01/dags/01_umbrella.py	/^join_datasets = DummyOperator(task_id="join_datasets", dag=dag)$/;"	v
+join_datasets	chapter05/dags/01_start.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/02_branch_function.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/02_branch_task.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/03_branch_dag.py	/^    join_datasets = DummyOperator(task_id="join_datasets", trigger_rule="none_failed")$/;"	v
+join_datasets	chapter05/dags/04_branch_dag_join.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/05_condition_task.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/06_condition_dag.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/07_condition_dag_op.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/08_trigger_rules.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/09_xcoms.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/10_xcoms_template.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/11_xcoms_return.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter05/dags/13_taskflow_full.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_datasets	chapter11/dags/04_task_groups_umbrella.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
+join_erp	chapter05/dags/04_branch_dag_join.py	/^    join_erp = DummyOperator(task_id="join_erp_branch", trigger_rule="none_failed")$/;"	v
+join_erp	chapter05/dags/05_condition_task.py	/^    join_erp = DummyOperator(task_id="join_erp_branch", trigger_rule="none_failed")$/;"	v
+join_erp	chapter05/dags/06_condition_dag.py	/^    join_erp = DummyOperator(task_id="join_erp_branch", trigger_rule="none_failed")$/;"	v
+join_erp	chapter05/dags/07_condition_dag_op.py	/^    join_erp = DummyOperator(task_id="join_erp_branch", trigger_rule="none_failed")$/;"	v
+join_erp	chapter11/dags/04_task_groups_umbrella.py	/^        join_erp = DummyOperator(task_id="join_erp_branch", trigger_rule="none_failed")$/;"	v
+k8s	chapter10/kubernetes/dags/02_kubernetes.py	/^from kubernetes.client import models as k8s$/;"	x	nameref:unknown:models
+latest_only	chapter05/dags/06_condition_dag.py	/^    latest_only = PythonOperator(task_id="latest_only", python_callable=_latest_only)$/;"	v
+latest_only	chapter05/dags/07_condition_dag_op.py	/^    latest_only = LatestOnlyOperator(task_id="latest_only", dag=dag)$/;"	v
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "19.614354",$/;"	s	object:results.1.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "28.56194122",$/;"	s	object:results.5.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "28.56194122",$/;"	s	object:results.6.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "28.60822681",$/;"	s	object:results.0.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "35.059444",$/;"	s	object:results.8.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "37.834",$/;"	s	object:results.7.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "40.958",$/;"	s	object:results.3.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "40.958",$/;"	s	object:results.4.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "42.50000000",$/;"	s	object:results.9.pad
+latitude	chapter02/example/launchlibrary2_snippet.json	/^                "latitude": "5.3019",$/;"	s	object:results.2.pad
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.0.mission
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.1.mission
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.2.mission
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.3.mission
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.4.mission
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.7.mission
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.8.mission
+launch_designator	chapter02/example/launchlibrary2_snippet.json	/^                "launch_designator": null,$/;"	z	object:results.9.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 148,$/;"	n	object:results.7.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 155,$/;"	n	object:results.3.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 155,$/;"	n	object:results.4.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 173,$/;"	n	object:results.8.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 188,$/;"	n	object:results.0.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 188,$/;"	n	object:results.5.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 188,$/;"	n	object:results.6.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": 76,$/;"	n	object:results.2.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": null,$/;"	z	object:results.1.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                    "launch_library_id": null,$/;"	z	object:results.9.rocket.configuration
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": 1166,$/;"	n	object:results.2.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": 1320,$/;"	n	object:results.7.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": 1346,$/;"	n	object:results.3.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": 1347,$/;"	n	object:results.4.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": 1354,$/;"	n	object:results.0.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": 643,$/;"	n	object:results.8.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": null,$/;"	z	object:results.1.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^                "launch_library_id": null,$/;"	z	object:results.9.mission
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 1412,$/;"	n	object:results.5
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 1640,$/;"	n	object:results.7
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 1666,$/;"	n	object:results.2
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 1965,$/;"	n	object:results.6
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 2080,$/;"	n	object:results.8
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 2098,$/;"	n	object:results.3
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 2099,$/;"	n	object:results.4
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": 2103,$/;"	n	object:results.0
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": null,$/;"	z	object:results.1
+launch_library_id	chapter02/example/launchlibrary2_snippet.json	/^            "launch_library_id": null,$/;"	z	object:results.9
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.0
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.1
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.2
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.3
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.4
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.5
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.6
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.7
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.8
+launch_service_provider	chapter02/example/launchlibrary2_snippet.json	/^            "launch_service_provider": {$/;"	o	object:results.9
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.0.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.1.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.2.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.3.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.4.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.5.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.6.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.7.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.8.pad
+location	chapter02/example/launchlibrary2_snippet.json	/^                "location": {$/;"	o	object:results.9.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "-118.151667",$/;"	s	object:results.8.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "-52.8346",$/;"	s	object:results.2.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "-75.488",$/;"	s	object:results.7.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "-80.57735736",$/;"	s	object:results.5.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "-80.57735736",$/;"	s	object:results.6.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "-80.60428186",$/;"	s	object:results.0.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "100.291",$/;"	s	object:results.3.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "100.291",$/;"	s	object:results.4.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "110.951057",$/;"	s	object:results.1.pad
+longitude	chapter02/example/launchlibrary2_snippet.json	/^                "longitude": "143.28333333",$/;"	s	object:results.9.pad
+main	chapter08/docker/movielens-api/fetch_ratings.py	/^def main(start_date, end_date, output_path):$/;"	f
+main	chapter10/docker/images/movielens-fetch-reqs/scripts/fetch_ratings.py	/^def main(start_date, end_date, output_path, host, user, password, batch_size):$/;"	f
+main	chapter10/docker/images/movielens-fetch/scripts/fetch_ratings.py	/^def main(start_date, end_date, output_path, host, user, password, batch_size):$/;"	f
+main	chapter10/docker/images/movielens-rank/scripts/rank_movies.py	/^def main(input_path, output_path, min_ratings):$/;"	f
+main	chapter18/scripts/fetch_data.py	/^def main():$/;"	f
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.0.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.1.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.2.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.3.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.4.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.5.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.6.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.7.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.8.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                    "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/;"	s	object:results.9.pad.location
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.0.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.1.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.2.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.3.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.4.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.5.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.6.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.7.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.8.pad
+map_image	chapter02/example/launchlibrary2_snippet.json	/^                "map_image": "https:\/\/spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com\/me/;"	s	object:results.9.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "",$/;"	s	object:results.3.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "",$/;"	s	object:results.4.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "http:\/\/maps.google.com\/maps?q=19.614354,110.951057",$/;"	s	object:results.1.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "http:\/\/maps.google.com\/maps?q=28.56194122,-80.57735736",$/;"	s	object:results.5.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "http:\/\/maps.google.com\/maps?q=28.56194122,-80.57735736",$/;"	s	object:results.6.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "http:\/\/maps.google.com\/maps?q=28.608+N,+80.604+W",$/;"	s	object:results.0.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "https:\/\/www.google.com\/maps\/?q=5.3019,-52.8346",$/;"	s	object:results.2.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": "https:\/\/www.google.com\/maps\/place\/35Â°03'34.0\\"N+118Â°09'0/;"	s	object:results.8.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": null,$/;"	z	object:results.7.pad
+map_url	chapter02/example/launchlibrary2_snippet.json	/^                "map_url": null,$/;"	z	object:results.9.pad
+min_max_per_id	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^min_max_per_id = ($/;"	v
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": null,$/;"	z	object:results.5
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": null,$/;"	z	object:results.6
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.0
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.1
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.2
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.3
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.4
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.7
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.8
+mission	chapter02/example/launchlibrary2_snippet.json	/^            "mission": {$/;"	o	object:results.9
+model_id	chapter05/dags/12_taskflow.py	/^    model_id = train_model()$/;"	v
+model_id	chapter05/dags/13_taskflow_full.py	/^    model_id = train_model()$/;"	v
+movieId	chapter09/tests/airflowbook/operators/postgres-init.sql	/^    movieId integer,$/;"	E	table:movielens
+movielens	chapter09/tests/airflowbook/operators/postgres-init.sql	/^CREATE TABLE movielens ($/;"	t
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Air launch to orbit",$/;"	s	object:results.8.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Cape Canaveral, FL, USA",$/;"	s	object:results.5.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Cape Canaveral, FL, USA",$/;"	s	object:results.6.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Electron",$/;"	s	object:results.7.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Falcon 9 Block 5",$/;"	s	object:results.0.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Falcon 9 Block 5",$/;"	s	object:results.5.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Falcon 9 Block 5",$/;"	s	object:results.6.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Jiuquan, People's Republic of China",$/;"	s	object:results.3.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Jiuquan, People's Republic of China",$/;"	s	object:results.4.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Kennedy Space Center, FL, USA",$/;"	s	object:results.0.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Kourou, French Guiana",$/;"	s	object:results.2.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Kuaizhou",$/;"	s	object:results.3.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Kuaizhou",$/;"	s	object:results.4.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "LauncherOne",$/;"	s	object:results.8.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Long March 8",$/;"	s	object:results.1.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "MOMO",$/;"	s	object:results.9.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Polar Orbit",$/;"	s	object:results.8.mission.orbit
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Soyuz STA",$/;"	s	object:results.2.rocket.configuration
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Suborbital",$/;"	s	object:results.9.mission.orbit
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Sun-Synchronous Orbit",$/;"	s	object:results.1.mission.orbit
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Sun-Synchronous Orbit",$/;"	s	object:results.2.mission.orbit
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Taiki-cho, Hokkaido, Japan",$/;"	s	object:results.9.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Wallops Island, Virginia, USA",$/;"	s	object:results.7.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                    "name": "Wenchang Satellite Launch Center, People's Republic of China",$/;"	s	object:results.1.pad.location
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Arianespace",$/;"	s	object:results.2.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "CSO 2",$/;"	s	object:results.2.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "China Aerospace Corporation",$/;"	s	object:results.1.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "China Aerospace Science and Industry Corporation",$/;"	s	object:results.3.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "China Aerospace Science and Industry Corporation",$/;"	s	object:results.4.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Flight 7",$/;"	s	object:results.9.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Interstellar Technologies",$/;"	s	object:results.9.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Jilin-1-02D",$/;"	s	object:results.3.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Jilin-1-02F",$/;"	s	object:results.4.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Launch Complex 39A",$/;"	s	object:results.0.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Launch Demo 2 (VCLS ELaNa XX)",$/;"	s	object:results.8.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Mojave Air and Space Port",$/;"	s	object:results.8.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "NROL-108",$/;"	s	object:results.0.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Rocket Lab Launch Complex 2",$/;"	s	object:results.7.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Rocket Lab Ltd",$/;"	s	object:results.7.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "STP-27RM",$/;"	s	object:results.7.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Soyuz Launch Complex",$/;"	s	object:results.2.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Space Launch Complex 40",$/;"	s	object:results.5.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Space Launch Complex 40",$/;"	s	object:results.6.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "SpaceX",$/;"	s	object:results.0.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "SpaceX",$/;"	s	object:results.5.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "SpaceX",$/;"	s	object:results.6.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Success"$/;"	s	object:results.0.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.1.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.2.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.3.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.4.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.5.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.6.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.7.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.8.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "TBD"$/;"	s	object:results.9.status
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Taiki-cho, Hokkaido, Japan",$/;"	s	object:results.9.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Unknown Pad",$/;"	s	object:results.3.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Unknown Pad",$/;"	s	object:results.4.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Virgin Orbit",$/;"	s	object:results.8.launch_service_provider
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "Wenchang",$/;"	s	object:results.1.pad
+name	chapter02/example/launchlibrary2_snippet.json	/^                "name": "XJY-7 & others",$/;"	s	object:results.1.mission
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Electron | STP-27RM",$/;"	s	object:results.7
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Falcon 9 Block 5 | Dedicated SSO Rideshare Mission 1",$/;"	s	object:results.6
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Falcon 9 Block 5 | NROL-108",$/;"	s	object:results.0
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Falcon 9 Block 5 | Türksat 5A",$/;"	s	object:results.5
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Kuaizhou-1A | Jilin-1-02D",$/;"	s	object:results.3
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Kuaizhou-1A | Jilin-1-02F",$/;"	s	object:results.4
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "LauncherOne | Launch Demo 2",$/;"	s	object:results.8
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Long March 8  | XJY-7 & others",$/;"	s	object:results.1
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "MOMO | Flight 7",$/;"	s	object:results.9
+name	chapter02/example/launchlibrary2_snippet.json	/^            "name": "Soyuz STA\/Fregat | CSO 2",$/;"	s	object:results.2
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2020-12-19T14:00:00Z",$/;"	s	object:results.0
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2020-12-22T04:29:00Z",$/;"	s	object:results.1
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2020-12-28T16:42:00Z",$/;"	s	object:results.2
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2020-12-31T00:00:00Z",$/;"	s	object:results.3
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2020-12-31T00:00:00Z",$/;"	s	object:results.4
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2021-01-05T01:27:00Z",$/;"	s	object:results.5
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2021-01-14T00:00:00Z",$/;"	s	object:results.6
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2021-01-31T00:00:00Z",$/;"	s	object:results.7
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2021-01-31T00:00:00Z",$/;"	s	object:results.8
+net	chapter02/example/launchlibrary2_snippet.json	/^            "net": "2021-01-31T00:00:00Z",$/;"	s	object:results.9
+next	chapter02/example/launchlibrary2_snippet.json	/^    "next": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/upcoming\/?limit=10&offset=10",$/;"	s
+notify	chapter02/dags/download_rocket_launches.py	/^notify = BashOperator($/;"	v
+notify	chapter02/dags/listing_2_10.py	/^notify = BashOperator($/;"	v
+notify	chapter02/dags/listing_2_2.py	/^notify = BashOperator($/;"	v
+notify_new_data	chapter06/dags/figure_6_12.py	/^    notify_new_data = DummyOperator($/;"	v
+notify_new_data	chapter06/dags/listing_6_4.py	/^notify_new_data = DummyOperator(task_id="notify_new_data", dag=dag2)$/;"	v
+np	chapter07/digit_classifier/number-classifier/app.py	/^import numpy as np$/;"	I	nameref:module:numpy
+objects	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^objects = [$/;"	v
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": null$/;"	z	object:results.0.mission
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": null$/;"	z	object:results.3.mission
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": null$/;"	z	object:results.4.mission
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": null$/;"	z	object:results.7.mission
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": {$/;"	o	object:results.1.mission
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": {$/;"	o	object:results.2.mission
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": {$/;"	o	object:results.8.mission
+orbit	chapter02/example/launchlibrary2_snippet.json	/^                "orbit": {$/;"	o	object:results.9.mission
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.0
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.1
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.2
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.3
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.4
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.5
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.6
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.7
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.8
+pad	chapter02/example/launchlibrary2_snippet.json	/^            "pad": {$/;"	o	object:results.9
+pagename	chapter04/scripts/create_table.sql	/^    pagename VARCHAR(50) NOT NULL,$/;"	E	table:pageview_counts
+pageview_counts	chapter04/scripts/create_table.sql	/^CREATE TABLE pageview_counts ($/;"	t
+pageviewcount	chapter04/scripts/create_table.sql	/^    pageviewcount INT NOT NULL,$/;"	E	table:pageview_counts
+path	chapter13/secretsbackend/vault-config.json	/^            "path": "\/vault\/file"$/;"	s	object:backend.file
+pd	chapter03/dags/01_unscheduled.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/02_daily_schedule.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/03_with_end_date.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/04_time_delta.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/05_query_with_dates.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/06_templated_query.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/07_templated_query_ds.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/08_templated_path.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/09_no_catchup.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/10_non_atomic_send.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/dags/11_atomic_send.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03/docker/events-api/app.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter07/insideairbnb/dags/chapter7_insideairbnb_pythonoperator.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter08/dags/01_python.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter08/dags/custom/ranking.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter08/docker/movielens-api/app.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter08/docker/movielens-api/fetch_ratings.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter10/docker/images/movielens-rank/scripts/rank_movies.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter14/dags/nyc_dag.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter16/dags/01_aws_usecase.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter17/dags/01_azure_usecase.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter18/dags/gcp.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter18/scripts/fetch_data.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pick_erp	chapter05/dags/05_condition_task.py	/^    pick_erp = BranchPythonOperator($/;"	v
+pick_erp	chapter05/dags/06_condition_dag.py	/^    pick_erp = BranchPythonOperator($/;"	v
+pick_erp	chapter05/dags/07_condition_dag_op.py	/^    pick_erp = BranchPythonOperator($/;"	v
+pick_erp_system	chapter05/dags/03_branch_dag.py	/^    pick_erp_system = BranchPythonOperator($/;"	v
+pick_erp_system	chapter05/dags/04_branch_dag_join.py	/^    pick_erp_system = BranchPythonOperator($/;"	v
+pick_erp_system	chapter11/dags/04_task_groups_umbrella.py	/^        pick_erp_system = BranchPythonOperator($/;"	v
+poke	chapter08/dags/custom/sensors.py	/^    def poke(self, context):$/;"	m	class:MovielensRatingsSensor
+poke	chapter08/package/airflow-movielens/src/airflow_movielens/sensors.py	/^    def poke(self, context):$/;"	m	class:MovielensRatingsSensor
+postgres	chapter09/tests/airflowbook/operators/test_movielens_operator.py	/^postgres = container($/;"	v
+postgres	chapter09/tests/airflowbook/operators/test_movielens_operator2.py	/^postgres = container($/;"	v
+postgres_container	chapter09/tests/airflowbook/operators/test_movielens_operator.py	/^postgres_container = container(image="{postgres_image.id}", ports={"5432\/tcp": None})$/;"	v
+postgres_credentials	chapter09/tests/airflowbook/operators/test_movielens_operator.py	/^def postgres_credentials():$/;"	f
+postgres_image	chapter09/tests/airflowbook/operators/test_movielens_operator.py	/^postgres_image = fetch(repository="postgres:11.1-alpine")$/;"	v
+postgres_image	chapter09/tests/airflowbook/operators/test_movielens_operator2.py	/^postgres_image = fetch(repository="postgres:11.1-alpine")$/;"	v
+predict	chapter07/digit_classifier/number-classifier/app.py	/^def predict():$/;"	f
+previous	chapter02/example/launchlibrary2_snippet.json	/^    "previous": null,$/;"	z
+print_airflow	chapter13/ldap/dags/hello_airflow.py	/^print_airflow = PythonOperator($/;"	v
+print_airflow	chapter13/rbac/dags/hello_airflow.py	/^print_airflow = PythonOperator($/;"	v
+print_airflow	chapter13/webserver_theme/dags/hello_airflow.py	/^print_airflow = PythonOperator($/;"	v
+print_conf	chapter06/dags/listing_6_8.py	/^def print_conf(**context):$/;"	f
+print_context	chapter04/dags/listing_4_3.py	/^print_context = PythonOperator($/;"	v
+print_context	chapter04/dags/listing_4_7.py	/^print_context = PythonOperator($/;"	v
+print_context	chapter04/dags/listing_4_8.py	/^print_context = PythonOperator($/;"	v
+print_hello	chapter13/ldap/dags/hello_airflow.py	/^print_hello = BashOperator(task_id="print_hello", bash_command="echo 'hello'", dag=dag)$/;"	v
+print_hello	chapter13/rbac/dags/hello_airflow.py	/^print_hello = BashOperator(task_id="print_hello", bash_command="echo 'hello'", dag=dag)$/;"	v
+print_hello	chapter13/webserver_theme/dags/hello_airflow.py	/^print_hello = BashOperator(task_id="print_hello", bash_command="echo 'hello'", dag=dag)$/;"	v
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": -1,$/;"	n	object:results.2
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": -1,$/;"	n	object:results.3
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": -1,$/;"	n	object:results.4
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": -1,$/;"	n	object:results.5
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": -1,$/;"	n	object:results.6
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": -1,$/;"	n	object:results.7
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": -1,$/;"	n	object:results.8
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": 90,$/;"	n	object:results.0
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": null,$/;"	z	object:results.1
+probability	chapter02/example/launchlibrary2_snippet.json	/^            "probability": null,$/;"	z	object:results.9
+process	chapter06/dags/figure_6_1.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag)$/;"	v
+process	chapter06/dags/figure_6_11.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag)$/;"	v
+process	chapter06/dags/figure_6_12.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag)$/;"	v
+process	chapter06/dags/figure_6_5.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag)$/;"	v
+process	chapter06/dags/figure_6_6.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag)$/;"	v
+process	chapter06/dags/figure_6_8.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag)$/;"	v
+process	chapter06/dags/figure_6_9.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag)$/;"	v
+process	chapter06/dags/listing_6_4.py	/^    process = DummyOperator(task_id=f"process_supermarket_{supermarket_id}", dag=dag1)$/;"	v
+process	chapter06/dags/listing_6_8.py	/^process = PythonOperator(task_id="process", python_callable=print_conf, dag=dag)$/;"	v
+process_citi_bike_data	chapter14/dags/nyc_dag.py	/^process_citi_bike_data = PandasOperator($/;"	v
+process_taxi_data	chapter14/dags/nyc_dag.py	/^process_taxi_data = PandasOperator($/;"	v
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.0
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.1
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.2
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.3
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.4
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.5
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.6
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.7
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.8
+program	chapter02/example/launchlibrary2_snippet.json	/^            "program": []$/;"	a	object:results.9
+public	chapter09/tests/airflowbook/operators/postgres-init.sql	/^SET SCHEMA 'public';$/;"	S
+pytest_plugins	chapter09/tests/conftest.py	/^pytest_plugins = ["helpers_namespace"]$/;"	v
+query_top_ratings	chapter18/dags/gcp.py	/^query_top_ratings = BigQueryExecuteQueryOperator($/;"	v
+rank_movies	chapter08/dags/01_python.py	/^    rank_movies = PythonOperator($/;"	v
+rank_movies	chapter10/docker/dags/01_docker.py	/^    rank_movies = DockerOperator($/;"	v
+rank_movies	chapter10/kubernetes/dags/02_kubernetes.py	/^    rank_movies = KubernetesPodOperator($/;"	v
+rank_movies	chapter16/dags/01_aws_usecase.py	/^    rank_movies = AWSAthenaOperator($/;"	v
+rank_movies	chapter17/dags/01_azure_usecase.py	/^    rank_movies = PythonOperator($/;"	v
+rank_movies_by_rating	chapter08/dags/custom/ranking.py	/^def rank_movies_by_rating(ratings, min_ratings=2):$/;"	f
+rank_movies_by_rating	chapter10/docker/images/movielens-rank/scripts/rank_movies.py	/^def rank_movies_by_rating(ratings, min_ratings=2):$/;"	f
+rating	chapter09/tests/airflowbook/operators/postgres-init.sql	/^    rating float,$/;"	E	table:movielens
+ratingTimestamp	chapter09/tests/airflowbook/operators/postgres-init.sql	/^    ratingTimestamp integer,$/;"	E	table:movielens
+ratings	chapter08/docker/movielens-api/app.py	/^def ratings():$/;"	f
+report	chapter06/dags/figure_6_20.py	/^report = DummyOperator(task_id="report", dag=dag2)$/;"	v
+requests_exceptions	chapter02/dags/download_rocket_launches.py	/^import requests.exceptions as requests_exceptions$/;"	I	nameref:module:requests.exceptions
+requests_exceptions	chapter02/dags/listing_2_10.py	/^import requests.exceptions as requests_exceptions$/;"	I	nameref:module:requests.exceptions
+requests_exceptions	chapter02/dags/listing_2_2.py	/^import requests.exceptions as requests_exceptions$/;"	I	nameref:module:requests.exceptions
+requests_exceptions	chapter02/dags/listing_2_6.py	/^import requests.exceptions as requests_exceptions$/;"	I	nameref:module:requests.exceptions
+requirements	chapter08/package/airflow-movielens/setup.py	/^requirements = ["apache-airflow", "requests"]$/;"	v
+response	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^    response = client.get_object(bucket_name="inside-airbnb", object_name=obj)$/;"	v
+results	chapter02/example/launchlibrary2_snippet.json	/^    "results": [$/;"	a
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.0
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.1
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.2
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.3
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.4
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.5
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.6
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.7
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.8
+rocket	chapter02/example/launchlibrary2_snippet.json	/^            "rocket": {$/;"	o	object:results.9
+run_airflow_task	chapter09/tests/conftest.py	/^def run_airflow_task(task: BaseOperator, dag: DAG):$/;"	f
+sagemaker_deploy_model	chapter07/digit_classifier/dags/chapter9_digit_classifier.py	/^sagemaker_deploy_model = SageMakerEndpointOperator($/;"	v
+sagemaker_train_model	chapter07/digit_classifier/dags/chapter9_digit_classifier.py	/^sagemaker_train_model = SageMakerTrainingOperator($/;"	v
+scrapeTime	chapter09/tests/airflowbook/operators/postgres-init.sql	/^    scrapeTime timestamp$/;"	E	table:movielens
+secret_token	chapter13/secretsbackend/secure_api/app.py	/^secret_token = "supersecret"$/;"	v
+send_error	chapter12/dags/dag_failure_callback.py	/^def send_error():$/;"	f
+send_error	chapter12/dags/task_failure_callback.py	/^def send_error():$/;"	f
+send_slack_message	chapter11/dags/05_sla_misses.py	/^def send_slack_message(message):$/;"	f
+send_stats	chapter03/dags/11_atomic_send.py	/^send_stats = PythonOperator($/;"	v
+sla_miss_callback	chapter11/dags/05_sla_misses.py	/^def sla_miss_callback(context):$/;"	f
+sleep_task	chapter11/dags/05_sla_misses.py	/^    sleep_task = BashOperator(task_id="sleep", bash_command="sleep 30")$/;"	v
+sleeptask	chapter12/dags/task_sla.py	/^sleeptask = BashOperator($/;"	v
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "electron-stp-27rm",$/;"	s	object:results.7
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "falcon-9-block-5-dedicated-sso-rideshare-mission-1",$/;"	s	object:results.6
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "falcon-9-block-5-nrol-108",$/;"	s	object:results.0
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "falcon-9-block-5-turksat-5a",$/;"	s	object:results.5
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "kuaizhou-1a-jilin-1-02d",$/;"	s	object:results.3
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "kuaizhou-1a-jilin-1-02f",$/;"	s	object:results.4
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "launcherone-launch-demo-2",$/;"	s	object:results.8
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "long-march-8-xjy-7-others",$/;"	s	object:results.1
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "momo-flight-7",$/;"	s	object:results.9
+slug	chapter02/example/launchlibrary2_snippet.json	/^            "slug": "soyuz-stafregat-cso-2",$/;"	s	object:results.2
+stages	chapter07/digit_classifier/number-classifier/.chalice/config.json	/^  "stages": {$/;"	o
+start	chapter05/dags/01_start.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/02_branch_function.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/02_branch_task.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/03_branch_dag.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/04_branch_dag_join.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/05_condition_task.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/06_condition_dag.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/07_condition_dag_op.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/08_trigger_rules.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/09_xcoms.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/10_xcoms_template.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/11_xcoms_return.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter05/dags/13_taskflow_full.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start	chapter11/dags/04_task_groups_umbrella.py	/^    start = DummyOperator(task_id="start")$/;"	v
+start_location_id	chapter14/services/result_db/create_tables.sql	/^    start_location_id INTEGER,$/;"	E	table:citi_bike_rides
+start_location_id	chapter14/services/result_db/create_tables.sql	/^    start_location_id INTEGER,$/;"	E	table:taxi_rides
+starttime	chapter14/services/result_db/create_tables.sql	/^    starttime TIMESTAMP,$/;"	E	table:citi_bike_rides
+starttime	chapter14/services/result_db/create_tables.sql	/^    starttime TIMESTAMP,$/;"	E	table:taxi_rides
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.0
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.1
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.2
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.3
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.4
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.5
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.6
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.7
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.8
+status	chapter02/example/launchlibrary2_snippet.json	/^            "status": {$/;"	o	object:results.9
+stoptime	chapter14/services/result_db/create_tables.sql	/^    stoptime TIMESTAMP,$/;"	E	table:citi_bike_rides
+stoptime	chapter14/services/result_db/create_tables.sql	/^    stoptime TIMESTAMP,$/;"	E	table:taxi_rides
+t1	chapter09/dags/dag_cycle.py	/^t1 = DummyOperator(task_id="t1", dag=dag)$/;"	v
+t1	chapter09/dags/duplicate_task_ids.py	/^t1 = DummyOperator(task_id="task", dag=dag)$/;"	v
+t1	chapter09/dags/testme.py	/^t1 = DummyOperator(task_id="test", dag=dag)$/;"	v
+t2	chapter09/dags/dag_cycle.py	/^t2 = DummyOperator(task_id="t2", dag=dag)$/;"	v
+t3	chapter09/dags/dag_cycle.py	/^t3 = DummyOperator(task_id="t3", dag=dag)$/;"	v
+taxi_rides	chapter14/services/result_db/create_tables.sql	/^CREATE TABLE taxi_rides($/;"	t
+taxi_to_db	chapter14/dags/nyc_dag.py	/^taxi_to_db = MinioPandasToPostgres($/;"	v
+taxi_zones	chapter14/services/nyc_transportation_api/app.py	/^taxi_zones = {$/;"	v
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": false,$/;"	b	object:results.0
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": false,$/;"	b	object:results.1
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": false,$/;"	b	object:results.2
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": false,$/;"	b	object:results.9
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": true,$/;"	b	object:results.3
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": true,$/;"	b	object:results.4
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": true,$/;"	b	object:results.5
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": true,$/;"	b	object:results.6
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": true,$/;"	b	object:results.7
+tbddate	chapter02/example/launchlibrary2_snippet.json	/^            "tbddate": true,$/;"	b	object:results.8
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": false,$/;"	b	object:results.0
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": false,$/;"	b	object:results.1
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": false,$/;"	b	object:results.2
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": false,$/;"	b	object:results.9
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": true,$/;"	b	object:results.3
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": true,$/;"	b	object:results.4
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": true,$/;"	b	object:results.5
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": true,$/;"	b	object:results.6
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": true,$/;"	b	object:results.7
+tbdtime	chapter02/example/launchlibrary2_snippet.json	/^            "tbdtime": true,$/;"	b	object:results.8
+temp_df	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^    temp_df = pd.read_csv($/;"	v
+template_fields	chapter07/insideairbnb/dags/custom/postgres_to_s3_operator.py	/^    template_fields = ("_query", "_s3_key")$/;"	v	class:PostgresToS3Operator
+template_fields	chapter08/dags/custom/operators.py	/^    template_fields = ("_start_date", "_end_date", "_output_path")$/;"	v	class:MovielensFetchRatingsOperator
+template_fields	chapter08/dags/custom/sensors.py	/^    template_fields = ("_start_date", "_end_date")$/;"	v	class:MovielensRatingsSensor
+template_fields	chapter08/package/airflow-movielens/src/airflow_movielens/operators.py	/^    template_fields = ("_start_date", "_end_date", "_output_path")$/;"	v	class:MovielensFetchRatingsOperator
+template_fields	chapter08/package/airflow-movielens/src/airflow_movielens/sensors.py	/^    template_fields = ("_start_date", "_end_date")$/;"	v	class:MovielensRatingsSensor
+template_fields	chapter14/src/nyctransport/operators/pandas_operator.py	/^    template_fields = ($/;"	v	class:PandasOperator
+template_fields	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^    template_fields = ("_minio_key",)$/;"	v	class:MinioPandasToPostgres
+test_call_fixture	chapter09/tests/airflowbook/operators/test_movielens_operator.py	/^def test_call_fixture(postgres_container):$/;"	f
+test_dag	chapter09/tests/conftest.py	/^def test_dag():$/;"	f
+test_dag	chapter09/tests/dags/conftest.py	/^def test_dag(tmpdir):$/;"	f
+test_dag_integrity	chapter09/tests/dags/test_dag_integrity.py	/^def test_dag_integrity(dag_file):$/;"	f
+test_example	chapter09/tests/dags/chapter9/custom/test_operators.py	/^def test_example():$/;"	f
+test_json_to_csv_operator	chapter09/tests/airflowbook/operators/test_json_to_csv_operator.py	/^def test_json_to_csv_operator(tmp_path: Path):$/;"	f
+test_movielens_operator	chapter09/tests/airflowbook/operators/test_movielens_operator.py	/^def test_movielens_operator(tmp_path: Path, mocker: MockFixture):$/;"	f
+test_movielens_to_postgres_operator	chapter09/tests/airflowbook/operators/test_movielens_operator.py	/^def test_movielens_to_postgres_operator($/;"	f
+test_movielens_to_postgres_operator	chapter09/tests/airflowbook/operators/test_movielens_operator2.py	/^def test_movielens_to_postgres_operator(mocker, test_dag, postgres):$/;"	f
+test_movielenspopularityoperator	chapter09/tests/dags/chapter9/custom/test_operators.py	/^def test_movielenspopularityoperator(mocker):$/;"	f
+test_movielenspopularityoperator	chapter09/tests/dags/chapter9/custom/test_operators_incorrect.py	/^def test_movielenspopularityoperator(mocker: MockFixture):$/;"	f
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.0.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.1.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.2.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.3.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.4.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.7.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.8.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 0$/;"	n	object:results.9.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 20$/;"	n	object:results.5.pad.location
+total_landing_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_landing_count": 20$/;"	n	object:results.6.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 150,$/;"	n	object:results.2.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 182,$/;"	n	object:results.0.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 20,$/;"	n	object:results.7.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 208,$/;"	n	object:results.5.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 208,$/;"	n	object:results.6.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 44,$/;"	n	object:results.8.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 5,$/;"	n	object:results.9.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 9,$/;"	n	object:results.1.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 96,$/;"	n	object:results.3.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                    "total_launch_count": 96,$/;"	n	object:results.4.pad.location
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 0$/;"	n	object:results.7.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 1$/;"	n	object:results.8.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 125$/;"	n	object:results.0.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 23$/;"	n	object:results.2.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 25$/;"	n	object:results.3.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 25$/;"	n	object:results.4.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 5$/;"	n	object:results.9.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 63$/;"	n	object:results.5.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 63$/;"	n	object:results.6.pad
+total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 9$/;"	n	object:results.1.pad
+train_ml_model	chapter01/dags/01_umbrella.py	/^train_ml_model = DummyOperator(task_id="train_ml_model", dag=dag)$/;"	v
+train_model	chapter05/dags/01_start.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/02_branch_function.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/02_branch_task.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/03_branch_dag.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/04_branch_dag_join.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/05_condition_task.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/06_condition_dag.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/07_condition_dag_op.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/08_trigger_rules.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+train_model	chapter05/dags/09_xcoms.py	/^    train_model = PythonOperator(task_id="train_model", python_callable=_train_model)$/;"	v
+train_model	chapter05/dags/10_xcoms_template.py	/^    train_model = PythonOperator(task_id="train_model", python_callable=_train_model)$/;"	v
+train_model	chapter05/dags/11_xcoms_return.py	/^    train_model = PythonOperator(task_id="train_model", python_callable=_train_model)$/;"	v
+train_model	chapter05/dags/12_taskflow.py	/^    def train_model():$/;"	f
+train_model	chapter05/dags/13_taskflow_full.py	/^    def train_model():$/;"	f
+train_model	chapter11/dags/04_task_groups_umbrella.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
+transform_citi_bike_data	chapter14/dags/nyc_dag.py	/^def transform_citi_bike_data(df):$/;"	f
+transform_taxi_data	chapter14/dags/nyc_dag.py	/^def transform_taxi_data(df):$/;"	f
+trigger_crawler	chapter16/dags/01_aws_usecase.py	/^    trigger_crawler = GlueTriggerCrawlerOperator($/;"	v
+trigger_create_metrics_dag	chapter06/dags/listing_6_4.py	/^    trigger_create_metrics_dag = TriggerDagRunOperator($/;"	v
+tripduration	chapter14/services/result_db/create_tables.sql	/^    tripduration INTEGER,$/;"	E	table:citi_bike_rides
+tripduration	chapter14/services/result_db/create_tables.sql	/^    tripduration INTEGER,$/;"	E	table:taxi_rides
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Commercial"$/;"	s	object:results.0.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Commercial"$/;"	s	object:results.2.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Commercial"$/;"	s	object:results.5.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Commercial"$/;"	s	object:results.6.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Commercial"$/;"	s	object:results.7.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Commercial"$/;"	s	object:results.8.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Dedicated Rideshare",$/;"	s	object:results.8.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Earth Science",$/;"	s	object:results.3.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Earth Science",$/;"	s	object:results.4.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Government"$/;"	s	object:results.1.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Government"$/;"	s	object:results.3.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Government"$/;"	s	object:results.4.launch_service_provider
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Government\/Top Secret",$/;"	s	object:results.0.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Government\/Top Secret",$/;"	s	object:results.1.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Government\/Top Secret",$/;"	s	object:results.2.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Government\/Top Secret",$/;"	s	object:results.7.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": "Suborbital",$/;"	s	object:results.9.mission
+type	chapter02/example/launchlibrary2_snippet.json	/^                "type": null$/;"	z	object:results.9.launch_service_provider
+ui_color	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^    ui_color = "#705B74"$/;"	v	class:MinioPandasToPostgres
+ui_fgcolor	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^    ui_fgcolor = "#8FA48B"$/;"	v	class:MinioPandasToPostgres
+update_dashboard	chapter06/dags/figure_6_12.py	/^    update_dashboard = DummyOperator($/;"	v
+update_dashboard	chapter06/dags/listing_6_4.py	/^update_dashboard = DummyOperator(task_id="update_dashboard", dag=dag2)$/;"	v
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/135\/",$/;"	s	object:results.3.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/135\/",$/;"	s	object:results.4.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/141\/",$/;"	s	object:results.8.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/164\/",$/;"	s	object:results.0.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/164\/",$/;"	s	object:results.5.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/164\/",$/;"	s	object:results.6.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/198\/",$/;"	s	object:results.9.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/26\/",$/;"	s	object:results.7.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/462\/",$/;"	s	object:results.1.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/config\/launcher\/49\/",$/;"	s	object:results.2.rocket.configuration
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/12\/",$/;"	s	object:results.5.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/12\/",$/;"	s	object:results.6.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/13\/",$/;"	s	object:results.2.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/17\/",$/;"	s	object:results.3.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/17\/",$/;"	s	object:results.4.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/20\/",$/;"	s	object:results.8.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/21\/",$/;"	s	object:results.7.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/27\/",$/;"	s	object:results.0.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/32\/",$/;"	s	object:results.9.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                    "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/location\/8\/",$/;"	s	object:results.1.pad.location
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/1002\/",$/;"	s	object:results.9.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/115\/",$/;"	s	object:results.2.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/121\/",$/;"	s	object:results.0.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/121\/",$/;"	s	object:results.5.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/121\/",$/;"	s	object:results.6.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/147\/",$/;"	s	object:results.7.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/184\/",$/;"	s	object:results.3.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/184\/",$/;"	s	object:results.4.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/189\/",$/;"	s	object:results.1.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/agencies\/199\/",$/;"	s	object:results.8.launch_service_provider
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/106\/",$/;"	s	object:results.9.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/53\/",$/;"	s	object:results.8.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/71\/",$/;"	s	object:results.3.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/71\/",$/;"	s	object:results.4.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/78\/",$/;"	s	object:results.1.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/79\/",$/;"	s	object:results.7.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/80\/",$/;"	s	object:results.5.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/80\/",$/;"	s	object:results.6.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/81\/",$/;"	s	object:results.2.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^                "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/pad\/87\/",$/;"	s	object:results.0.pad
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/120c53d4-d3a1-42fe-b2a5-a63e3b/;"	s	object:results.7
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/20d9789c-dfdf-46b5-a964-de5f03/;"	s	object:results.8
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/30412a48-cb4d-43d6-a304-6ae5f0/;"	s	object:results.3
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/504ba71a-bf09-48f1-9346-48c3d7/;"	s	object:results.9
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/528b72ff-e47e-46a3-b7ad-23b2ff/;"	s	object:results.0
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/57c418cc-97ae-4d8e-b806-bb0e03/;"	s	object:results.1
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/708c2b85-50d6-4baa-bd3e-fdfb02/;"	s	object:results.4
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/7409ce63-4f65-44d6-804c-578418/;"	s	object:results.2
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/d5d607b7-05ed-4142-8703-14b553/;"	s	object:results.5
+url	chapter02/example/launchlibrary2_snippet.json	/^            "url": "https:\/\/ll.thespacedevs.com\/2.0.0\/launch\/f213a5df-579a-4682-8143-df228e/;"	s	object:results.6
+userId	chapter09/tests/airflowbook/operators/postgres-init.sql	/^    userId integer,$/;"	E	table:movielens
+users	chapter08/docker/movielens-api/app.py	/^users = {os.environ["API_USER"]: generate_password_hash(os.environ["API_PASSWORD"])}$/;"	v
+users	chapter14/services/citibike_api/app.py	/^users = {"citibike": generate_password_hash("cycling")}$/;"	v
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": ""$/;"	s	object:results.7.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": ""$/;"	s	object:results.9.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "1A"$/;"	s	object:results.3.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "1A"$/;"	s	object:results.4.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "8"$/;"	s	object:results.1.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "Block 5"$/;"	s	object:results.0.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "Block 5"$/;"	s	object:results.5.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "Block 5"$/;"	s	object:results.6.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "Fregat"$/;"	s	object:results.2.rocket.configuration
+variant	chapter02/example/launchlibrary2_snippet.json	/^                    "variant": "One"$/;"	s	object:results.8.rocket.configuration
+verify_password	chapter08/docker/movielens-api/app.py	/^def verify_password(username, password):$/;"	f
+verify_password	chapter14/services/citibike_api/app.py	/^def verify_password(username, password):$/;"	f
+version	chapter07/digit_classifier/number-classifier/.chalice/config.json	/^  "version": "2.0",$/;"	s
+volume	chapter10/kubernetes/dags/02_kubernetes.py	/^    volume = k8s.V1Volume(name="data-volume", persistent_volume_claim=volume_claim)$/;"	v
+volume_claim	chapter10/kubernetes/dags/02_kubernetes.py	/^    volume_claim = k8s.V1PersistentVolumeClaimVolumeSource(claim_name="data-volume")$/;"	v
+volume_mount	chapter10/kubernetes/dags/02_kubernetes.py	/^    volume_mount = k8s.V1VolumeMount($/;"	v
+wait	chapter06/dags/figure_6_11.py	/^    wait = PythonSensor($/;"	v
+wait	chapter06/dags/figure_6_12.py	/^    wait = PythonSensor($/;"	v
+wait	chapter06/dags/figure_6_20.py	/^wait = ExternalTaskSensor($/;"	v
+wait	chapter06/dags/figure_6_5.py	/^    wait = FileSensor($/;"	v
+wait	chapter06/dags/figure_6_6.py	/^    wait = PythonSensor($/;"	v
+wait	chapter06/dags/figure_6_9.py	/^    wait = PythonSensor($/;"	v
+wait	chapter06/dags/listing_6_1.py	/^wait = FileSensor($/;"	v
+wait	chapter06/dags/listing_6_4.py	/^    wait = PythonSensor($/;"	v
+wait_for_ratings	chapter08/dags/04_sensor.py	/^    wait_for_ratings = MovielensRatingsSensor($/;"	v
+wait_for_supermarket_1	chapter06/dags/listing_6_2.py	/^wait_for_supermarket_1 = PythonSensor($/;"	v
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.1
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.2
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.3
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.4
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.5
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.6
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.7
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.8
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": false,$/;"	b	object:results.9
+webcast_live	chapter02/example/launchlibrary2_snippet.json	/^            "webcast_live": true,$/;"	b	object:results.0
+weekdays	chapter14/services/nyc_transportation_api/app.py	/^weekdays = {$/;"	v
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "",$/;"	s	object:results.3.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "",$/;"	s	object:results.4.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "https:\/\/en.wikipedia.org\/wiki\/Cape_Canaveral_Air_Force_Station_/;"	s	object:results.5.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "https:\/\/en.wikipedia.org\/wiki\/Cape_Canaveral_Air_Force_Station_/;"	s	object:results.6.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "https:\/\/en.wikipedia.org\/wiki\/Ensemble_de_Lancement_Soyouz",$/;"	s	object:results.2.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "https:\/\/en.wikipedia.org\/wiki\/Kennedy_Space_Center_Launch_Compl/;"	s	object:results.0.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "https:\/\/en.wikipedia.org\/wiki\/Mojave_Air_and_Space_Port",$/;"	s	object:results.8.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": "https:\/\/en.wikipedia.org\/wiki\/Wenchang_Satellite_Launch_Center"/;"	s	object:results.1.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": null,$/;"	z	object:results.7.pad
+wiki_url	chapter02/example/launchlibrary2_snippet.json	/^                "wiki_url": null,$/;"	z	object:results.9.pad
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2020-12-19T17:00:00Z",$/;"	s	object:results.0
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2020-12-22T05:03:00Z",$/;"	s	object:results.1
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2020-12-28T16:42:00Z",$/;"	s	object:results.2
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2020-12-31T00:00:00Z",$/;"	s	object:results.3
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2020-12-31T00:00:00Z",$/;"	s	object:results.4
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2021-01-05T05:29:00Z",$/;"	s	object:results.5
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2021-01-14T00:00:00Z",$/;"	s	object:results.6
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2021-01-31T00:00:00Z",$/;"	s	object:results.7
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2021-01-31T00:00:00Z",$/;"	s	object:results.8
+window_end	chapter02/example/launchlibrary2_snippet.json	/^            "window_end": "2021-01-31T00:00:00Z",$/;"	s	object:results.9
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2020-12-19T14:00:00Z",$/;"	s	object:results.0
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2020-12-22T04:29:00Z",$/;"	s	object:results.1
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2020-12-28T16:42:00Z",$/;"	s	object:results.2
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2020-12-31T00:00:00Z",$/;"	s	object:results.3
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2020-12-31T00:00:00Z",$/;"	s	object:results.4
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2021-01-05T01:27:00Z",$/;"	s	object:results.5
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2021-01-14T00:00:00Z",$/;"	s	object:results.6
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2021-01-31T00:00:00Z",$/;"	s	object:results.7
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2021-01-31T00:00:00Z",$/;"	s	object:results.8
+window_start	chapter02/example/launchlibrary2_snippet.json	/^            "window_start": "2021-01-31T00:00:00Z",$/;"	s	object:results.9
+write_minio_object	chapter14/dags/nyc_dag.py	/^def write_minio_object($/;"	f
+write_partitioned	chapter18/scripts/fetch_data.py	/^def write_partitioned(ratings, output_dir):$/;"	f
+write_to_postgres	chapter04/dags/listing_4_20.py	/^write_to_postgres = PostgresOperator($/;"	v
+wttr image	chapter10/docker/README.md	/^### wttr image$/;"	S	section:Chapter 10 - Docker""Usage
