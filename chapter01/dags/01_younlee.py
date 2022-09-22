@@ -6,7 +6,7 @@ from airflow.operators.empty import EmptyOperator
 dag = DAG(
     dag_id="01_younlee",
     description="younlee desc",
-    start_date=pendulum.today("UTC").add(days=-1),
+    start_date=pendulum.today("UTC"),
     schedule_interval="@daily",
 )
 

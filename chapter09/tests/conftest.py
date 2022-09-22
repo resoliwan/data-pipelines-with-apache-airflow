@@ -3,7 +3,7 @@ import datetime
 import pytest
 from airflow.models import DAG, BaseOperator
 
-pytest_plugins = ["helpers_namespace"]
+# pytest_plugins = ["helpers_namespace"]
 
 
 @pytest.fixture
@@ -15,11 +15,11 @@ def test_dag():
     )
 
 
-@pytest.helpers.register
-def run_airflow_task(task: BaseOperator, dag: DAG):
-    dag.clear()
-    task.run(
-        start_date=dag.default_args["start_date"],
-        end_date=dag.default_args["start_date"],
-        ignore_ti_state=True,
-    )
+# @pytest.helpers.register
+# def run_airflow_task(task: BaseOperator, dag: DAG):
+#     dag.clear()
+#     task.run(
+#         start_date=dag.default_args["start_date"],
+#         end_date=dag.default_args["start_date"],
+#         ignore_ti_state=True,
+#     )
