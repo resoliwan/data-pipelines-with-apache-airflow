@@ -8,6 +8,9 @@ dag = DAG(
 
 fetch_events = BashOperator(
     task_id="fetch_events",
-    bash_command=("echo 'hello'"),
+    bash_command=(
+        "make -p /tmp/data/events &&"
+        "curl -o /tmp/data/events.json http://localhost:5001/events"
+    ),
     dag=dag,
 )
