@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "data-pipelines-with-apache-airflow"
+name = "airflowbook"
 version = "0.1.0"
 description = ""
 authors = ["resoliwan <resoliwan@naver.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pytest = "^7.1.3"
+pandas = "^1.5.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.8.0"

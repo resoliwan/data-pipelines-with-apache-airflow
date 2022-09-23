@@ -46,6 +46,7 @@ Chapter 16 - Airflow on AWS	chapter16/README.md	/^# Chapter 16 - Airflow on AWS$
 Chapter 17 - Airflow on Azure	chapter17/README.md	/^# Chapter 17 - Airflow on Azure$/;"	c
 Chapter 2	chapter02/README.md	/^# Chapter 2$/;"	c
 Chapter 3	chapter03/README.md	/^# Chapter 3$/;"	c
+Chapter 3	chapter03_younlee/README.md	/^# Chapter 3$/;"	c
 Chapter 4	chapter04/README.md	/^# Chapter 4$/;"	c
 Chapter 5	chapter05/README.md	/^# Chapter 5$/;"	c
 Chapter 6	chapter06/README.md	/^# Chapter 6$/;"	c
@@ -55,6 +56,7 @@ Citi Bike dataset	chapter14/README.md	/^### Citi Bike dataset$/;"	S	section:Chap
 Contents	chapter01/README.md	/^## Contents$/;"	s	chapter:Chapter 1
 Contents	chapter02/README.md	/^## Contents$/;"	s	chapter:Chapter 2
 Contents	chapter03/README.md	/^## Contents$/;"	s	chapter:Chapter 3
+Contents	chapter03_younlee/README.md	/^## Contents$/;"	s	chapter:Chapter 3
 Contents	chapter04/README.md	/^## Contents$/;"	s	chapter:Chapter 4
 Contents	chapter05/README.md	/^## Contents$/;"	s	chapter:Chapter 5
 Contents	chapter06/README.md	/^## Contents$/;"	s	chapter:Chapter 6
@@ -69,8 +71,10 @@ Contents	chapter16/README.md	/^## Contents$/;"	s	chapter:Chapter 16 - Airflow on
 Contents	chapter17/README.md	/^## Contents$/;"	s	chapter:Chapter 17 - Airflow on Azure
 Contents	chapter18/README.md	/^## Contents$/;"	s	chapter:Chapter 13 - GCP
 DAG_FILES	chapter01/tests/dags/test_dag_integrity.py	/^DAG_FILES = glob.glob(DAG_PATH)$/;"	v
+DAG_FILES	chapter03_younlee/tests/dags/test_dag_integrity.py	/^DAG_FILES = glob.glob(DAG_PATH)$/;"	v
 DAG_FILES	chapter09/tests/dags/test_dag_integrity.py	/^DAG_FILES = glob.glob(DAG_PATH)$/;"	v
 DAG_PATH	chapter01/tests/dags/test_dag_integrity.py	/^DAG_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "dags\/**.py")$/;"	v
+DAG_PATH	chapter03_younlee/tests/dags/test_dag_integrity.py	/^DAG_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "dags\/**.py")$/;"	v
 DAG_PATH	chapter09/tests/dags/test_dag_integrity.py	/^DAG_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "dags\/**.py")$/;"	v
 DEFAULT_ITEMS_PER_PAGE	chapter08/docker/movielens-api/app.py	/^DEFAULT_ITEMS_PER_PAGE = 100$/;"	v
 DEFAULT_PORT	chapter08/dags/custom/hooks.py	/^    DEFAULT_PORT = 5000$/;"	v	class:MovielensHook
@@ -110,6 +114,7 @@ ERP_CHANGE_DATE	chapter05/dags/06_condition_dag.py	/^ERP_CHANGE_DATE = airflow.u
 ERP_CHANGE_DATE	chapter05/dags/07_condition_dag_op.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
 ERP_CHANGE_DATE	chapter11/dags/04_task_groups_umbrella.py	/^ERP_CHANGE_DATE = airflow.utils.dates.days_ago(1)$/;"	v
 GlueTriggerCrawlerOperator	chapter16/dags/custom/operators.py	/^class GlueTriggerCrawlerOperator(BaseOperator):$/;"	c
+HelloBash	airflowbook/operators/op.py	/^HelloBash = BashOperator$/;"	v
 LDAP	chapter13/ldap/README.md	/^# LDAP$/;"	c
 MOVIELENS_HOST	chapter08/dags/01_python.py	/^MOVIELENS_HOST = os.environ.get("MOVIELENS_HOST", "movielens")$/;"	v
 MOVIELENS_PASSWORD	chapter08/dags/01_python.py	/^MOVIELENS_PASSWORD = os.environ["MOVIELENS_PASSWORD"]$/;"	v
@@ -144,6 +149,7 @@ Usage	README.md	/^### Usage$/;"	S	chapter:Data Pipelines with Apache Airflow
 Usage	chapter01/README.md	/^## Usage$/;"	s	chapter:Chapter 1
 Usage	chapter02/README.md	/^## Usage$/;"	s	chapter:Chapter 2
 Usage	chapter03/README.md	/^## Usage$/;"	s	chapter:Chapter 3
+Usage	chapter03_younlee/README.md	/^## Usage$/;"	s	chapter:Chapter 3
 Usage	chapter04/README.md	/^## Usage$/;"	s	chapter:Chapter 4
 Usage	chapter05/README.md	/^## Usage$/;"	s	chapter:Chapter 5
 Usage	chapter06/README.md	/^## Usage$/;"	s	chapter:Chapter 6
@@ -187,6 +193,7 @@ __init__	chapter16/dags/custom/hooks.py	/^    def __init__(self, conn_id, retry=
 __init__	chapter16/dags/custom/operators.py	/^    def __init__($/;"	m	class:GlueTriggerCrawlerOperator
 __init__	chapter17/dags/custom/hooks.py	/^    def __init__(self, conn_id, retry=3):$/;"	m	class:MovielensHook
 __init__	chapter18/dags/custom/hooks.py	/^    def __init__(self, conn_id, retry=3):$/;"	m	class:MovielensHook
+_calculate_stats	airflowbook/dags/unscheduled0301.py	/^def _calculate_stats(input_path, output_path):$/;"	f
 _calculate_stats	chapter03/dags/01_unscheduled.py	/^def _calculate_stats(input_path, output_path):$/;"	f
 _calculate_stats	chapter03/dags/02_daily_schedule.py	/^def _calculate_stats(input_path, output_path):$/;"	f
 _calculate_stats	chapter03/dags/03_with_end_date.py	/^def _calculate_stats(input_path, output_path):$/;"	f
@@ -242,7 +249,9 @@ _fetch_sales_old	chapter05/dags/03_branch_dag.py	/^def _fetch_sales_old(**contex
 _fetch_sales_old	chapter05/dags/04_branch_dag_join.py	/^def _fetch_sales_old(**context):$/;"	f
 _fetch_sales_old	chapter11/dags/04_task_groups_umbrella.py	/^def _fetch_sales_old(**context):$/;"	f
 _generate_events	chapter03/docker/events-api/app.py	/^def _generate_events(end_date):$/;"	f
+_generate_events	chapter03_younlee/docker/events-api/app.py	/^def _generate_events(end_date):$/;"	f
 _generate_events_for_day	chapter03/docker/events-api/app.py	/^def _generate_events_for_day(date):$/;"	f
+_generate_events_for_day	chapter03_younlee/docker/events-api/app.py	/^def _generate_events_for_day(date):$/;"	f
 _get_data	chapter04/dags/listing_4_13.py	/^def _get_data(year, month, day, hour, output_path, **_):$/;"	f
 _get_data	chapter04/dags/listing_4_15.py	/^def _get_data(year, month, day, hour, output_path, **_):$/;"	f
 _get_data	chapter04/dags/listing_4_18.py	/^def _get_data(year, month, day, hour, output_path, **_):$/;"	f
@@ -280,6 +289,7 @@ _rank_movies	chapter17/dags/01_azure_usecase.py	/^def _rank_movies($/;"	f
 _read_ratings	chapter08/docker/movielens-api/app.py	/^def _read_ratings(file_path):$/;"	f
 _send_stats	chapter03/dags/11_atomic_send.py	/^def _send_stats(email, **context):$/;"	f
 _str_to_datetime	chapter03/docker/events-api/app.py	/^def _str_to_datetime(value):$/;"	f
+_str_to_datetime	chapter03_younlee/docker/events-api/app.py	/^def _str_to_datetime(value):$/;"	f
 _train_model	chapter05/dags/09_xcoms.py	/^def _train_model(**context):$/;"	f
 _train_model	chapter05/dags/10_xcoms_template.py	/^def _train_model(**context):$/;"	f
 _train_model	chapter05/dags/11_xcoms_return.py	/^def _train_model(**context):$/;"	f
@@ -290,6 +300,7 @@ _wait_for_supermarket	chapter06/dags/figure_6_9.py	/^def _wait_for_supermarket(s
 _wait_for_supermarket	chapter06/dags/listing_6_2.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
 _wait_for_supermarket	chapter06/dags/listing_6_4.py	/^def _wait_for_supermarket(supermarket_id_):$/;"	f
 a_op	chapter01/dags/01_younlee.py	/^a_op = EmptyOperator(task_id="a_op_id", dag=dag)$/;"	v
+a_op	chapter03_younlee/dags/01_younlee.py	/^a_op = EmptyOperator(task_id="a_op_id", dag=dag)$/;"	v
 abbrev	chapter02/example/launchlibrary2_snippet.json	/^                    "abbrev": "PO"$/;"	s	object:results.8.mission.orbit
 abbrev	chapter02/example/launchlibrary2_snippet.json	/^                    "abbrev": "SSO"$/;"	s	object:results.1.mission.orbit
 abbrev	chapter02/example/launchlibrary2_snippet.json	/^                    "abbrev": "SSO"$/;"	s	object:results.2.mission.orbit
@@ -309,6 +320,7 @@ airflow-stop	chapter18/Makefile	/^airflow-stop: ## Tear down Docker Compose setu
 airflow_environment	chapter01/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
 airflow_environment	chapter02/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
 airflow_environment	chapter03/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
+airflow_environment	chapter03_younlee/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
 airflow_environment	chapter04/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
 airflow_environment	chapter05/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
 airflow_environment	chapter06/docker-compose.yml	/^x-environment: &airflow_environment$/;"	a
@@ -331,6 +343,7 @@ airflow_execution_date	chapter14/services/result_db/create_tables.sql	/^    airf
 airflow_image	chapter01/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
 airflow_image	chapter02/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
 airflow_image	chapter03/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
+airflow_image	chapter03_younlee/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
 airflow_image	chapter04/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
 airflow_image	chapter05/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
 airflow_image	chapter06/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
@@ -350,6 +363,7 @@ airflow_image	chapter17/docker-compose.yml	/^x-airflow-image: &airflow_image apa
 airflow_image	chapter18/docker-compose.yml	/^x-airflow-image: &airflow_image apache\/airflow:2.3.3-python3.10$/;"	a
 api_gateway_stage	chapter07/digit_classifier/number-classifier/.chalice/config.json	/^      "api_gateway_stage": "api"$/;"	s	object:stages.dev
 app	chapter03/docker/events-api/app.py	/^app = Flask(__name__)$/;"	v
+app	chapter03_younlee/docker/events-api/app.py	/^app = Flask(__name__)$/;"	v
 app	chapter07/digit_classifier/number-classifier/app.py	/^app = Chalice(app_name="number-classifier")$/;"	v
 app	chapter08/docker/movielens-api/app.py	/^app = Flask(__name__)$/;"	v
 app	chapter13/secretsbackend/secure_api/app.py	/^app = Flask(__name__)$/;"	v
@@ -359,6 +373,7 @@ app_name	chapter07/digit_classifier/number-classifier/.chalice/config.json	/^  "
 auth	chapter08/docker/movielens-api/app.py	/^auth = HTTPBasicAuth()$/;"	v
 auth	chapter14/services/citibike_api/app.py	/^auth = HTTPBasicAuth()$/;"	v
 b_op	chapter01/dags/01_younlee.py	/^b_op = EmptyOperator(task_id="b_op_id", dag=dag)$/;"	v
+b_op	chapter03_younlee/dags/01_younlee.py	/^b_op = EmptyOperator(task_id="b_op_id", dag=dag)$/;"	v
 backend	chapter13/secretsbackend/vault-config.json	/^    "backend": {$/;"	o
 basedir	chapter13/ldap/webserver_config.py	/^basedir = os.path.abspath(os.path.dirname(__file__))$/;"	v
 basedir	chapter13/webserver_theme/webserver_config.py	/^basedir = os.path.abspath(os.path.dirname(__file__))$/;"	v
@@ -381,6 +396,8 @@ build_taxi	chapter14/Makefile	/^build_taxi: build_taxi_fileserver build_taxi_db 
 build_taxi_db	chapter14/Makefile	/^build_taxi_db: ## Build the NYC Yellow Taxi DB Docker image$/;"	t
 build_taxi_fileserver	chapter14/Makefile	/^build_taxi_fileserver: ## Build the NYC Yellow Taxi fileserver Docker image$/;"	t
 c_op	chapter01/dags/01_younlee.py	/^c_op = EmptyOperator(task_id="c_op_id", dag=dag)$/;"	v
+c_op	chapter03_younlee/dags/01_younlee.py	/^c_op = EmptyOperator(task_id="c_op_id", dag=dag)$/;"	v
+calculate_stats	airflowbook/dags/unscheduled0301.py	/^calculate_stats = PythonOperator($/;"	v
 calculate_stats	chapter03/dags/01_unscheduled.py	/^calculate_stats = PythonOperator($/;"	v
 calculate_stats	chapter03/dags/02_daily_schedule.py	/^calculate_stats = PythonOperator($/;"	v
 calculate_stats	chapter03/dags/03_with_end_date.py	/^calculate_stats = PythonOperator($/;"	v
@@ -396,6 +413,7 @@ call_api	chapter13/secretsbackend/dag.py	/^call_api = SimpleHttpOperator($/;"	v
 citi_bike_rides	chapter14/services/result_db/create_tables.sql	/^CREATE TABLE citi_bike_rides($/;"	t
 citi_bike_to_db	chapter14/dags/nyc_dag.py	/^citi_bike_to_db = MinioPandasToPostgres($/;"	v
 clean_forecast_data	chapter01/dags/01_umbrella.py	/^clean_forecast_data = EmptyOperator(task_id="clean_forecast_data", dag=dag)$/;"	v
+clean_forecast_data	chapter03_younlee/dags/01_umbrella.py	/^clean_forecast_data = EmptyOperator(task_id="clean_forecast_data", dag=dag)$/;"	v
 clean_sales	chapter05/dags/01_start.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
 clean_sales	chapter05/dags/02_branch_function.py	/^    clean_sales = PythonOperator(task_id="clean_sales", python_callable=_clean_sales)$/;"	v
 clean_sales	chapter05/dags/02_branch_task.py	/^    clean_sales = PythonOperator(task_id="clean_sales", python_callable=_clean_sales)$/;"	v
@@ -405,6 +423,7 @@ clean_sales	chapter05/dags/10_xcoms_template.py	/^    clean_sales = DummyOperato
 clean_sales	chapter05/dags/11_xcoms_return.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
 clean_sales	chapter05/dags/13_taskflow_full.py	/^    clean_sales = DummyOperator(task_id="clean_sales")$/;"	v
 clean_sales_data	chapter01/dags/01_umbrella.py	/^clean_sales_data = EmptyOperator(task_id="clean_sales_data", dag=dag)$/;"	v
+clean_sales_data	chapter03_younlee/dags/01_umbrella.py	/^clean_sales_data = EmptyOperator(task_id="clean_sales_data", dag=dag)$/;"	v
 clean_sales_new	chapter05/dags/03_branch_dag.py	/^    clean_sales_new = PythonOperator($/;"	v
 clean_sales_new	chapter05/dags/04_branch_dag_join.py	/^    clean_sales_new = PythonOperator($/;"	v
 clean_sales_new	chapter05/dags/05_condition_task.py	/^    clean_sales_new = DummyOperator(task_id="clean_sales_new")$/;"	v
@@ -479,6 +498,7 @@ create_metrics	chapter06/dags/listing_6_8.py	/^create_metrics = PythonOperator($
 create_user_and_database	chapter07/insideairbnb/insideairbnb/postgres-init.sh	/^function create_user_and_database() {$/;"	f
 crunch_numbers	chapter07/insideairbnb/dags/chapter7_insideairbnb.py	/^crunch_numbers = DockerOperator($/;"	v
 crunch_numbers	chapter07/insideairbnb/dags/chapter7_insideairbnb_pythonoperator.py	/^crunch_numbers = PythonOperator($/;"	v
+dag	airflowbook/dags/unscheduled0301.py	/^dag = DAG($/;"	v
 dag	chapter01/dags/01_umbrella.py	/^dag = DAG($/;"	v
 dag	chapter01/dags/01_younlee.py	/^dag = DAG($/;"	v
 dag	chapter02/dags/download_rocket_launches.py	/^dag = DAG($/;"	v
@@ -498,6 +518,9 @@ dag	chapter03/dags/08_templated_path.py	/^dag = DAG($/;"	v
 dag	chapter03/dags/09_no_catchup.py	/^dag = DAG($/;"	v
 dag	chapter03/dags/10_non_atomic_send.py	/^dag = DAG($/;"	v
 dag	chapter03/dags/11_atomic_send.py	/^dag = DAG($/;"	v
+dag	chapter03_younlee/dags/01_umbrella.py	/^dag = DAG($/;"	v
+dag	chapter03_younlee/dags/01_unscheduled.py	/^dag = DAG($/;"	v
+dag	chapter03_younlee/dags/01_younlee.py	/^dag = DAG($/;"	v
 dag	chapter04/dags/listing_4_1.py	/^dag = DAG($/;"	v
 dag	chapter04/dags/listing_4_13.py	/^dag = DAG($/;"	v
 dag	chapter04/dags/listing_4_15.py	/^dag = DAG($/;"	v
@@ -550,6 +573,7 @@ datetime	chapter04/scripts/create_table.sql	/^    datetime TIMESTAMP NOT NULL$/;
 default_args	chapter11/dags/05_sla_misses.py	/^default_args = {"sla": timedelta(seconds=10)}$/;"	v
 delete_result_table	chapter18/dags/gcp.py	/^delete_result_table = BigQueryDeleteTableOperator($/;"	v
 deploy_ml_model	chapter01/dags/01_umbrella.py	/^deploy_ml_model = EmptyOperator(task_id="deploy_ml_model", dag=dag)$/;"	v
+deploy_ml_model	chapter03_younlee/dags/01_umbrella.py	/^deploy_ml_model = EmptyOperator(task_id="deploy_ml_model", dag=dag)$/;"	v
 deploy_model	chapter05/dags/01_start.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
 deploy_model	chapter05/dags/02_branch_function.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
 deploy_model	chapter05/dags/02_branch_task.py	/^    deploy_model = DummyOperator(task_id="deploy_model")$/;"	v
@@ -610,10 +634,12 @@ dt	chapter17/dags/01_azure_usecase.py	/^import datetime as dt$/;"	I	nameref:modu
 dt	chapter17/dags/custom/hooks.py	/^import datetime as dt$/;"	I	nameref:module:datetime
 dt	chapter18/dags/custom/hooks.py	/^import datetime as dt$/;"	I	nameref:module:datetime
 e_op	chapter01/dags/01_younlee.py	/^e_op = EmptyOperator(task_id="e_op_id", dag=dag)$/;"	v
+e_op	chapter03_younlee/dags/01_younlee.py	/^e_op = EmptyOperator(task_id="e_op_id", dag=dag)$/;"	v
 email_stats	chapter03/dags/11_atomic_send.py	/^def email_stats(stats, email):$/;"	f
 end_location_id	chapter14/services/result_db/create_tables.sql	/^    end_location_id INTEGER,$/;"	E	table:citi_bike_rides
 end_location_id	chapter14/services/result_db/create_tables.sql	/^    end_location_id INTEGER,$/;"	E	table:taxi_rides
 events	chapter03/docker/events-api/app.py	/^def events():$/;"	f
+events	chapter03_younlee/docker/events-api/app.py	/^def events():$/;"	f
 example_1_dag_1	chapter06/dags/figure_6_17.py	/^example_1_dag_1 = DAG($/;"	v
 example_1_dag_2	chapter06/dags/figure_6_17.py	/^example_1_dag_2 = DAG($/;"	v
 example_2_dag_1	chapter06/dags/figure_6_17.py	/^example_2_dag_1 = DAG($/;"	v
@@ -637,6 +663,7 @@ extract_gz	chapter04/dags/listing_4_20.py	/^extract_gz = BashOperator($/;"	v
 extract_mnist_data	chapter07/digit_classifier/dags/chapter9_digit_classifier.py	/^extract_mnist_data = PythonOperator($/;"	v
 extract_top_ratings	chapter18/dags/gcp.py	/^extract_top_ratings = BigQueryToGCSOperator($/;"	v
 f_op	chapter01/dags/01_younlee.py	/^f_op = EmptyOperator(task_id="f_op_id", dag=dag)$/;"	v
+f_op	chapter03_younlee/dags/01_younlee.py	/^f_op = EmptyOperator(task_id="f_op_id", dag=dag)$/;"	v
 failing_task	chapter12/dags/task_failure_callback.py	/^failing_task = BashOperator(task_id="failing_task", bash_command="exit 1", dag=dag)$/;"	v
 failing_task	chapter12/dags/task_failure_email.py	/^failing_task = BashOperator(task_id="failing_task", bash_command="exit 1", dag=dag)$/;"	v
 failreason	chapter02/example/launchlibrary2_snippet.json	/^            "failreason": "",$/;"	s	object:results.0
@@ -660,6 +687,7 @@ family	chapter02/example/launchlibrary2_snippet.json	/^                    "fami
 family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "MOMO",$/;"	s	object:results.9.rocket.configuration
 family	chapter02/example/launchlibrary2_snippet.json	/^                    "family": "Soyuz",$/;"	s	object:results.2.rocket.configuration
 fetch_code	chapter12/dags/dag_puller_dag.py	/^fetch_code = BashOperator($/;"	v
+fetch_events	airflowbook/dags/unscheduled0301.py	/^fetch_events = BashOperator($/;"	v
 fetch_events	chapter03/dags/01_unscheduled.py	/^fetch_events = BashOperator($/;"	v
 fetch_events	chapter03/dags/02_daily_schedule.py	/^fetch_events = BashOperator($/;"	v
 fetch_events	chapter03/dags/03_with_end_date.py	/^fetch_events = BashOperator($/;"	v
@@ -671,6 +699,7 @@ fetch_events	chapter03/dags/08_templated_path.py	/^fetch_events = BashOperator($
 fetch_events	chapter03/dags/09_no_catchup.py	/^fetch_events = BashOperator($/;"	v
 fetch_events	chapter03/dags/10_non_atomic_send.py	/^fetch_events = BashOperator($/;"	v
 fetch_events	chapter03/dags/11_atomic_send.py	/^fetch_events = BashOperator($/;"	v
+fetch_events	chapter03_younlee/dags/01_unscheduled.py	/^fetch_events = BashOperator($/;"	v
 fetch_pageviews	chapter04/dags/listing_4_15.py	/^fetch_pageviews = PythonOperator($/;"	v
 fetch_pageviews	chapter04/dags/listing_4_18.py	/^fetch_pageviews = PythonOperator($/;"	v
 fetch_pageviews	chapter04/dags/listing_4_20.py	/^fetch_pageviews = PythonOperator($/;"	v
@@ -692,6 +721,7 @@ fetch_sales	chapter05/dags/10_xcoms_template.py	/^    fetch_sales = DummyOperato
 fetch_sales	chapter05/dags/11_xcoms_return.py	/^    fetch_sales = DummyOperator(task_id="fetch_sales")$/;"	v
 fetch_sales	chapter05/dags/13_taskflow_full.py	/^    fetch_sales = DummyOperator(task_id="fetch_sales")$/;"	v
 fetch_sales_data	chapter01/dags/01_umbrella.py	/^fetch_sales_data = EmptyOperator(task_id="fetch_sales_data", dag=dag)$/;"	v
+fetch_sales_data	chapter03_younlee/dags/01_umbrella.py	/^fetch_sales_data = EmptyOperator(task_id="fetch_sales_data", dag=dag)$/;"	v
 fetch_sales_new	chapter05/dags/03_branch_dag.py	/^    fetch_sales_new = PythonOperator($/;"	v
 fetch_sales_new	chapter05/dags/04_branch_dag_join.py	/^    fetch_sales_new = PythonOperator($/;"	v
 fetch_sales_new	chapter05/dags/05_condition_task.py	/^    fetch_sales_new = DummyOperator(task_id="fetch_sales_new")$/;"	v
@@ -720,6 +750,7 @@ fetch_weather	chapter05/dags/13_taskflow_full.py	/^    fetch_weather = DummyOper
 fetch_weather	chapter10/docker/images/wttr-example/scripts/fetch_weather.py	/^def fetch_weather(city, output_path):$/;"	f
 fetch_weather	chapter11/dags/04_task_groups_umbrella.py	/^        fetch_weather = DummyOperator(task_id="fetch_weather")$/;"	v
 fetch_weather_forecast	chapter01/dags/01_umbrella.py	/^fetch_weather_forecast = EmptyOperator(task_id="fetch_weather_forecast", dag=dag)$/;"	v
+fetch_weather_forecast	chapter03_younlee/dags/01_umbrella.py	/^fetch_weather_forecast = EmptyOperator(task_id="fetch_weather_forecast", dag=dag)$/;"	v
 file	chapter13/secretsbackend/vault-config.json	/^        "file": {$/;"	o	object:backend
 full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Electron",$/;"	s	object:results.7.rocket.configuration
 full_name	chapter02/example/launchlibrary2_snippet.json	/^                    "full_name": "Falcon 9 Block 5",$/;"	s	object:results.0.rocket.configuration
@@ -915,6 +946,7 @@ inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": fal
 inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.8
 inhold	chapter02/example/launchlibrary2_snippet.json	/^            "inhold": false,$/;"	b	object:results.9
 join_datasets	chapter01/dags/01_umbrella.py	/^join_datasets = EmptyOperator(task_id="join_datasets", dag=dag)$/;"	v
+join_datasets	chapter03_younlee/dags/01_umbrella.py	/^join_datasets = EmptyOperator(task_id="join_datasets", dag=dag)$/;"	v
 join_datasets	chapter05/dags/01_start.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
 join_datasets	chapter05/dags/02_branch_function.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
 join_datasets	chapter05/dags/02_branch_task.py	/^    join_datasets = DummyOperator(task_id="join_datasets")$/;"	v
@@ -1175,6 +1207,7 @@ pagename	chapter04/scripts/create_table.sql	/^    pagename VARCHAR(50) NOT NULL,
 pageview_counts	chapter04/scripts/create_table.sql	/^CREATE TABLE pageview_counts ($/;"	t
 pageviewcount	chapter04/scripts/create_table.sql	/^    pageviewcount INT NOT NULL,$/;"	E	table:pageview_counts
 path	chapter13/secretsbackend/vault-config.json	/^            "path": "\/vault\/file"$/;"	s	object:backend.file
+pd	airflowbook/dags/unscheduled0301.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter03/dags/01_unscheduled.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter03/dags/02_daily_schedule.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter03/dags/03_with_end_date.py	/^import pandas as pd$/;"	I	nameref:module:pandas
@@ -1187,6 +1220,7 @@ pd	chapter03/dags/09_no_catchup.py	/^import pandas as pd$/;"	I	nameref:module:pa
 pd	chapter03/dags/10_non_atomic_send.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter03/dags/11_atomic_send.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter03/docker/events-api/app.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	chapter03_younlee/docker/events-api/app.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter07/insideairbnb/dags/chapter7_insideairbnb_pythonoperator.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter07/insideairbnb/numbercruncher/crunchdata.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	chapter08/dags/01_python.py	/^import pandas as pd$/;"	I	nameref:module:pandas
@@ -1256,6 +1290,7 @@ program	chapter02/example/launchlibrary2_snippet.json	/^            "program": [
 public	chapter09/tests/airflowbook/operators/postgres-init.sql	/^SET SCHEMA 'public';$/;"	S
 pytest cache directory	.pytest_cache/README.md	/^# pytest cache directory #$/;"	c
 pytest cache directory	chapter01/.pytest_cache/README.md	/^# pytest cache directory #$/;"	c
+pytest cache directory	chapter03_younlee/.pytest_cache/README.md	/^# pytest cache directory #$/;"	c
 pytest cache directory	chapter09/.pytest_cache/README.md	/^# pytest cache directory #$/;"	c
 query_top_ratings	chapter18/dags/gcp.py	/^query_top_ratings = BigQueryExecuteQueryOperator($/;"	v
 rank_movies	chapter08/dags/01_python.py	/^    rank_movies = PythonOperator($/;"	v
@@ -1375,12 +1410,16 @@ template_fields	chapter08/package/airflow-movielens/src/airflow_movielens/sensor
 template_fields	chapter14/src/nyctransport/operators/pandas_operator.py	/^    template_fields = ($/;"	v	class:PandasOperator
 template_fields	chapter14/src/nyctransport/operators/s3_to_postgres.py	/^    template_fields = ("_minio_key",)$/;"	v	class:MinioPandasToPostgres
 test_bash_operator	chapter01/tests/dags/test_bash_operator.py	/^def test_bash_operator():$/;"	f
+test_bash_operator	chapter03_younlee/tests/dags/test_bash_operator.py	/^def test_bash_operator():$/;"	f
 test_dag	chapter01/tests/conftest.py	/^def test_dag():$/;"	f
+test_dag	chapter03_younlee/tests/conftest.py	/^def test_dag():$/;"	f
 test_dag	chapter09/tests/conftest.py	/^def test_dag():$/;"	f
 test_dag	chapter09/tests/dags/conftest.py	/^def test_dag(tmpdir):$/;"	f
 test_dag_integrity	chapter01/tests/dags/test_dag_integrity.py	/^def test_dag_integrity(dag_file):$/;"	f
+test_dag_integrity	chapter03_younlee/tests/dags/test_dag_integrity.py	/^def test_dag_integrity(dag_file):$/;"	f
 test_dag_integrity	chapter09/tests/dags/test_dag_integrity.py	/^def test_dag_integrity(dag_file):$/;"	f
 test_example	chapter09/tests/dags/chapter9/custom/test_operators.py	/^def test_example():$/;"	f
+test_fetch_event_operator	chapter03_younlee/tests/dags/test_bash_operator.py	/^def test_fetch_event_operator():$/;"	f
 test_json_to_csv_operator	chapter09/tests/airflowbook/operators/test_json_to_csv_operator.py	/^def test_json_to_csv_operator(tmp_path: Path):$/;"	f
 test_movielens_to_postgres_operator	chapter09/tests/airflowbook/operators/test_movielens_operator2.py	/^def test_movielens_to_postgres_operator(mocker, test_dag, postgres):$/;"	f
 test_movielenspopularityoperator	chapter09/tests/dags/chapter9/custom/test_operators.py	/^def test_movielenspopularityoperator(mocker):$/;"	f
@@ -1416,6 +1455,7 @@ total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^             
 total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 63$/;"	n	object:results.6.pad
 total_launch_count	chapter02/example/launchlibrary2_snippet.json	/^                "total_launch_count": 9$/;"	n	object:results.1.pad
 train_ml_model	chapter01/dags/01_umbrella.py	/^train_ml_model = EmptyOperator(task_id="train_ml_model", dag=dag)$/;"	v
+train_ml_model	chapter03_younlee/dags/01_umbrella.py	/^train_ml_model = EmptyOperator(task_id="train_ml_model", dag=dag)$/;"	v
 train_model	chapter05/dags/01_start.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
 train_model	chapter05/dags/02_branch_function.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
 train_model	chapter05/dags/02_branch_task.py	/^    train_model = DummyOperator(task_id="train_model")$/;"	v
