@@ -1,3 +1,4 @@
+import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -7,7 +8,9 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
 dag = DAG(
-    dag_id="01_unscheduled", start_date=pendulum.today("UTC"), schedule_interval=None
+    dag_id="01_unscheduled",
+    start_date=datetime.datetime(2019, 1, 1),
+    schedule_interval=None,
 )
 
 fetch_events = BashOperator(
@@ -15,8 +18,8 @@ fetch_events = BashOperator(
     bash_command=(
         "make -p /tmp/data &&"
         "curl -o /tmp/data/events_{{ds}}.json http://localhost:5001/events?"
-        "start_date={{ds}}&"
-        "end_date={{next_ds}}"
+        "start_date={{data_interval_start | ds}}&"
+        "end_date={{data_interval_end | ds}}"
     ),
     dag=dag,
 )
@@ -39,9 +42,9 @@ calculate_stats = PythonOperator(
     python_callable=_calculate_stats,
     op_kwargs={
         "input_path": "/tmp/data/events_{{ds}}.json",
-        "output_path": "/tmp/data/events_{{ds}}.csv",
+        "output_path": "/tmp/data/stats_{{ds}}.csv",
     },
+    dag=dag,
 )
-calculate_stats.dag = dag
 
 fetch_events >> calculate_stats
