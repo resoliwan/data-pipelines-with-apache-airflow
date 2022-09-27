@@ -4,6 +4,7 @@ import uuid
 
 import arrow
 import pandas as pd
+import pendulum
 import pytest
 from airflow.operators.bash import BashOperator
 from airflow.utils.session import NEW_SESSION
@@ -13,17 +14,20 @@ from airflowbook.operators.op import HelloBash
 
 def test__get_data():
     output_path = "/tmp/data/test_wiki.gz"
-    file_name = _get_data("2022", "09", "25", "01", output_path, overwrite=False)
+    file_name = _get_data(
+        "2022", "09", "25", "01", output_path, skip_if_file_exist=True
+    )
     assert file_name == output_path
     assert os.path.isfile(output_path)
 
 
 def get_rendered_task(session, a_dag, task_id):
-    dr = a_dag.create_dagrun(
-        run_id="test1",
-        state="running",
-        session=session,
-    )
+    dr = a_dag.get_last_dagrun(session, True)
+    # dr = a_dag.create_dagrun(
+    #     run_id="test1",
+    #     state="running",
+    #     session=session,
+    # )
     ti = dr.get_task_instance(task_id)
     task = a_dag.get_task(ti.task_id)
     ti.refresh_from_task(task)
@@ -34,6 +38,6 @@ def get_rendered_task(session, a_dag, task_id):
 
 @pytest.mark.usefixtures("reset_airflowdb")
 def test_get_data_operator(session):
+    get_data.run(end_date=pendulum.yesterday(), test_mode=True, session=session)
     task = get_rendered_task(session, dag, get_data.task_id)
-    get_data.run(test_mode=True)
     assert os.path.isfile(task.op_kwargs["output_path"])
