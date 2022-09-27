@@ -11,6 +11,7 @@ dag = DAG(
     dag_id="01_unscheduled",
     start_date=datetime.datetime(2019, 1, 1),
     schedule_interval=None,
+    catchup=False,
 )
 
 fetch_events = BashOperator(

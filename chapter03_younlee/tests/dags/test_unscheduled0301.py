@@ -58,7 +58,6 @@ def test_calculate_stats(session):
     ti.refresh_from_task(dag.get_task(ti.task_id))
     context = ti.get_template_context(ignore_param_exceptions=False)
     ti.render_templates(context=context)
-
     df = _calculate_stats(
         calculate_stats.op_kwargs["input_path"],
         calculate_stats.op_kwargs["output_path"],
