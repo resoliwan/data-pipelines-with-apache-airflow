@@ -105,4 +105,4 @@ write_to_postgres = PostgresOperator(
     dag=dag,
 )
 #
-# get_data >> extract_gz
+get_data >> extract_gz >> fetch_pageviews >> write_to_postgres

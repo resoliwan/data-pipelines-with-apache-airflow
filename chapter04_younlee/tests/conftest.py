@@ -3,7 +3,8 @@ import uuid
 
 import pytest
 from airflow import settings
-from airflow.models import DAG, BaseOperator, DagRun, TaskInstance
+from airflow.models import DAG, BaseOperator, DagRun, TaskInstance, Trigger
+from airflow.utils.session import create_session
 
 
 @pytest.fixture
@@ -16,17 +17,21 @@ def test_dag():
 
 
 @pytest.fixture
-def reset_airflowdb():
-    session = settings.Session()
-    session.query(DagRun).delete()
-    session.query(TaskInstance).delete()
-    session.commit()
-
-
-@pytest.fixture
 def session():
-    from airflow.utils.session import create_session
 
     with create_session() as session:
         yield session
         session.rollback()
+
+
+def clear_db_runs():
+    with create_session() as session:
+        session.query(Trigger).delete()
+        session.query(DagRun).delete()
+        session.query(TaskInstance).delete()
+        session.commit()
+
+
+@pytest.fixture
+def reset_airflowdb():
+    clear_db_runs()
