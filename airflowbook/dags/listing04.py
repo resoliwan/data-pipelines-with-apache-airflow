@@ -15,6 +15,7 @@ dag = DAG(
     start_date=pendulum.yesterday(),
     schedule="@hourly",
     catchup=False,
+    template_searchpath="/tmp",
 )
 
 
@@ -74,7 +75,7 @@ def _create_pageview_sql(output_path, pageviews, logical_date):
         for pagename, view_count in pageviews.items():
             f.write(
                 "INSERT INTO pageview_counts VALUES ("
-                f"'{pagename}' '{view_count}', '{logical_date}'"
+                f"'{pagename}', '{view_count}', '{logical_date}'"
                 ");\n"
             )
     return output_path
@@ -90,17 +91,17 @@ fetch_pageviews = PythonOperator(
     python_callable=_fetch_pageviews,
     op_kwargs={
         "input_path": "/tmp/wikipageviews",
-        "output_path": "/tmp/pageviewsql",
+        "output_path": "/tmp/pageviewsql.sql",
         "pagenames": {"Google", "Amazon", "Apple", "Microsoft", "Facebook"},
     },
     dag=dag,
 )
 
-
 write_to_postgres = PostgresOperator(
     task_id="write_to_postgres",
     postgres_conn_id="my_postgres",
-    sql="/tmp/pageviewsql",
+    # check template_searchpath
+    sql="pageviewsql.sql",
     dag=dag,
 )
 #

@@ -1,7 +1,14 @@
 # Airflow test
+- 환경 변수 추가.
+    - Set at .envrc
+        - export AIRFLOW_HOME='./test_airflow_home'
 - DB init
-    - Set absolute path of AIRFLOW_HOME at .envrc
+    - AIRFLOW_HOME.airflow.cfg
         - 아래와 같이 세팅
             - sql_alchemy_conn = sqlite:////users/younlee/temp_workspace/data-pipelines-with-apache-airflow/test_airflow_home/airflow.db
     - Go to home and execute
         - ```airflow db init ```
+- DB 컨넥션 추가.
+- 환경 변수 추가.
+    - Set at .envrc
+        - export AIRFLOW_CONN_MY_POSTGRESS='postgres://airflow:@airflow:5432/airflow'

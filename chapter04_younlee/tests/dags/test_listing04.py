@@ -6,6 +6,7 @@ import arrow
 import pandas as pd
 import pendulum
 import pytest
+from airflow.models.connection import Connection
 from airflow.operators.bash import BashOperator
 from airflow.utils.session import NEW_SESSION
 from airflowbook.dags.listing04 import (
@@ -88,7 +89,7 @@ def test_fetch_pageviews(session):
 
 
 def test_create_pageview_sql():
-    output_path = "/tmp/pageviewsql"
+    output_path = "/tmp/pageviewsql.sql"
     pagenames = {"Google": 1, "Facebook": 2}
 
     _create_pageview_sql(output_path, pagenames, pendulum.today())
@@ -97,5 +98,13 @@ def test_create_pageview_sql():
             assert len(line) > 10
 
 
-def xtest_write_to_postgres():
-    write_to_postgres.run()
+@pytest.mark.usefixtures("reset_airflowdb")
+def test_write_to_postgres(session):
+    # check .envrc export AIRFLOW_CONN_MY_POSTGRES='postgres://airflow:airflow@localhost:5432/airflow'
+    # create table /Users/younlee/temp_workspace/data-pipelines-with-apache-airflow/chapter04_younlee/scripts/create_table.sql
+    # verify exist of pageviews
+    # if it is not exit you can change name of _create_pageview_sql
+    fetch_pageviews.run(end_date=pendulum.yesterday(), test_mode=True, session=session)
+    write_to_postgres.run(
+        end_date=pendulum.yesterday(), test_mode=True, session=session
+    )
