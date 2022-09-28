@@ -8,6 +8,7 @@ import pendulum
 import pytest
 from airflow.models.connection import Connection
 from airflow.operators.bash import BashOperator
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.utils.session import NEW_SESSION
 from airflowbook.dags.listing04 import (
     _create_pageview_sql,
@@ -99,11 +100,22 @@ def test_create_pageview_sql():
 
 
 @pytest.mark.usefixtures("reset_airflowdb")
-def test_write_to_postgres(session):
-    # check .envrc export AIRFLOW_CONN_MY_POSTGRES='postgres://airflow:airflow@localhost:5432/airflow'
+def test_write_to_postgres(mocker, session):
     # create table /Users/younlee/temp_workspace/data-pipelines-with-apache-airflow/chapter04_younlee/scripts/create_table.sql
     # verify exist of pageviews
     # if it is not exit you can change name of _create_pageview_sql
+    mocker.patch.object(
+        PostgresHook,
+        "get_connection",
+        return_value=Connection(
+            conn_id="postgres_mock",
+            conn_type="postgres",
+            host="localhost",
+            login="airflow",
+            password="airflow",
+            port=5433,
+        ),
+    )
     fetch_pageviews.run(end_date=pendulum.yesterday(), test_mode=True, session=session)
     write_to_postgres.run(
         end_date=pendulum.yesterday(), test_mode=True, session=session

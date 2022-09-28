@@ -99,7 +99,7 @@ fetch_pageviews = PythonOperator(
 
 write_to_postgres = PostgresOperator(
     task_id="write_to_postgres",
-    postgres_conn_id="my_postgres",
+    postgres_conn_id="postgres_mock",
     # check template_searchpath
     sql="pageviewsql.sql",
     dag=dag,
