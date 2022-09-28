@@ -6,13 +6,14 @@ import pendulum
 from airflow.models.dag import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 logger = logging.getLogger(__name__)
 
 dag = DAG(
     dag_id="listing04",
     start_date=pendulum.yesterday(),
-    schedule_interval="@hourly",
+    schedule="@hourly",
     catchup=False,
 )
 
@@ -53,7 +54,54 @@ get_data = PythonOperator(
 
 
 extract_gz = BashOperator(
-    task_id="extract_gz", bash_command="gunzip --force /tmp/wikipageviews.gz"
+    task_id="extract_gz", bash_command="gunzip --force --keep /tmp/wikipageviews.gz"
+)
+
+
+def _get_pageviews(input_path, pagenames):
+    result = dict.fromkeys(pagenames, 0)
+    with open(input_path, "r") as f:
+        for line in f:
+            domain_code, page_title, view_count, _ = line.split(" ")
+            if domain_code == "en" and page_title in pagenames:
+                result[page_title] = view_count
+
+    return result
+
+
+def _create_pageview_sql(output_path, pageviews, logical_date):
+    with open(output_path, "w") as f:
+        for pagename, view_count in pageviews.items():
+            f.write(
+                "INSERT INTO pageview_counts VALUES ("
+                f"'{pagename}' '{view_count}', '{logical_date}'"
+                ");\n"
+            )
+    return output_path
+
+
+def _fetch_pageviews(input_path, output_path, pagenames, logical_date):
+    pageviews = _get_pageviews(input_path, pagenames)
+    _create_pageview_sql(output_path, pageviews, logical_date)
+
+
+fetch_pageviews = PythonOperator(
+    task_id="get_pageviews",
+    python_callable=_fetch_pageviews,
+    op_kwargs={
+        "input_path": "/tmp/wikipageviews",
+        "output_path": "/tmp/pageviewsql",
+        "pagenames": {"Google", "Amazon", "Apple", "Microsoft", "Facebook"},
+    },
+    dag=dag,
+)
+
+
+write_to_postgres = PostgresOperator(
+    task_id="write_to_postgres",
+    postgres_conn_id="my_postgres",
+    sql="/tmp/pageviewsql",
+    dag=dag,
 )
 #
 # get_data >> extract_gz
